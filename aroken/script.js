@@ -1,2 +1,3 @@
 console.log('Привет')
-alert('sosi')
+
+alert('hi')

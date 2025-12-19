@@ -1,0 +1,23 @@
+* {
+	box-sizing: border-box;
+	font-family: "Times New Roman", Times, serif;
+}
+.title-h2 {
+	margin: 0 0 20px;
+}
+.article-1 {
+	padding: 20px;
+	max-width: 300px;
+	max-height: 200px;
+}
+.link-1 {
+	text-decoration-line: none;
+	margin-bottom: 10px;
+	display: block;
+}
+.title-h3 {
+	margin: 10px 0;
+}
+.text-1 {
+	margin: 10px 0;
+}

@@ -1,0 +1,18 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	background-color: #888;
+}
+.block {
+	width: 1000px;
+	height: 1000px;
+	background: url(../img/cat-image.jpg) no-repeat 50% / auto blue;
+	/* background-color: blue;
+	background-image: url(../img/cat-image.jpg);
+	background-size: auto;
+	background-repeat: no-repeat;
+	background-position: center;
+} */
+}

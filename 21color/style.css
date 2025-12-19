@@ -1,0 +1,9 @@
+.red-color {
+	color: rgb(255 0 0);
+}
+.blue-color {
+	color: rgb(0 0 255 /0.3);
+}
+.yellow-color {
+	color: #ffff00;
+}

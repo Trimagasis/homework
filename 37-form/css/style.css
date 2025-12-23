@@ -1,0 +1,6 @@
+.required {
+	color: red;
+}
+textarea {
+	resize: none;
+}

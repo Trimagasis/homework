@@ -1,0 +1,65 @@
+html {
+	font-family: "Ubuntu", sans-serif;
+}
+
+body * {
+	box-sizing: border-box;
+}
+.container {
+	max-width: 1250px;
+	padding: 15px;
+	margin: 0 auto;
+}
+.flex-container {
+	/* перенос строк */
+	flex-wrap: wrap;
+	display: flex;
+	/* направление, в котором располагаются */
+	flex-direction: row;
+	/* как элементы внутри flex-контейнера распределяются по основной оси  */
+	justify-content: center;
+	/* как элементы внутри контейнера выравниваются по поперечной оси */
+	align-items: center; /*побочная ось*/
+	gap: 28px;
+}
+.article {
+	border: 1px solid #d3cbd9;
+	width: 284px;
+	/* 
+	flex-grow: 0; степень растягивания
+	flex-shrink: 1; степень сжатия
+	flex-basis: auto; размер элементов */
+}
+.article-4 {
+	/* flex: 0 0 33%;
+	order: -1; */
+}
+.img {
+	width: 100%;
+	margin-bottom: 20px;
+}
+.date {
+	margin: 0;
+	margin-bottom: 8px;
+	font-weight: 300;
+	font-size: 14px;
+	letter-spacing: 0.04em;
+	text-transform: uppercase;
+	color: #858e8a;
+}
+.text {
+	margin: 0;
+	margin-bottom: 12px;
+	max-width: 244px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 130%;
+	color: #2c332f;
+}
+.link {
+	margin-bottom: 20px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 130%;
+	color: #3596ed;
+}

@@ -1,0 +1,19 @@
+body {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 30px;
+}
+.box {
+	width: 200px;
+	height: 200px;
+	background-color: chocolate;
+	border: 2px solid #000;
+}
+.box-1 {
+	position: relative;
+}
+.box-2 {
+	position: relative;
+	top: 0;
+	right: 0;
+}

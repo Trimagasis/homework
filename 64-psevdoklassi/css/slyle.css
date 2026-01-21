@@ -1,0 +1,21 @@
+html {
+	font-family: sans-serif;
+}
+body * {
+	box-sizing: border-box;
+}
+.input:focus,
+.button:focus {
+	outline: 2px solid #40f309;
+	border-radius: 5px;
+	outline-offset: 3px;
+}
+.link:hover {
+	color: rgb(5, 101, 185);
+}
+.button:hover {
+	background-color: brown;
+}
+.button:active {
+	background-color: blue;
+}

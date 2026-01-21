@@ -1,0 +1,17 @@
+html {
+	font-family: sans-serif;
+	scroll-behavior: smooth;
+	scroll-padding-top: 30px;
+}
+body * {
+	box-sizing: border-box;
+}
+.card {
+	max-width: 300px;
+	border: 2px solid #111;
+	border-radius: 8px;
+	overflow: hidden;
+}
+.img {
+	width: 100%;
+}

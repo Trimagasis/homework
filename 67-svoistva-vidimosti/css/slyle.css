@@ -1,0 +1,15 @@
+html {
+	font-family: sans-serif;
+}
+body * {
+	box-sizing: border-box;
+}
+.button:hover + .block {
+	opacity: 0;
+	visibility: hidden;
+}
+.block {
+	width: 200px;
+	height: 200px;
+	background-color: #333;
+}

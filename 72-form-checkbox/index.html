@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>css</title>
+		<link rel="stylesheet" href="./css/normalize.css" />
+		<link rel="stylesheet" href="./css/style.css" />
+	</head>
+	<body>
+		<form class="form">
+			<fieldset class="block">
+				<h3 class="nameform">Ваши личные данные</h3>
+				<label class="label">
+					<legend class="legend">Ваше имя</legend>
+					<input
+						id="name"
+						class="input"
+						type="text"
+						placeholder="Имя"
+						name="name"
+						required
+					/>
+				</label>
+				<label class="label">
+					<legend class="legend">Ваш возраст</legend>
+					<input
+						id="age"
+						class="input"
+						type="number"
+						placeholder="Возраст"
+						name="age"
+						required
+					/>
+				</label>
+				<label class="label">
+					<legend class="legend">Ваш номер телефона</legend>
+					<input
+						id="phone"
+						class="input"
+						type="tel"
+						placeholder="Номер телефона"
+						name="phone"
+						required
+					/>
+				</label>
+				<label class="label">
+					<legend class="legend">Ваша почта</legend>
+					<input
+						id="email"
+						class="input"
+						type="email"
+						placeholder="Почта"
+						name="email"
+						required
+					/>
+				</label>
+			</fieldset>
+			<fieldset class="block">
+				<label class="label">
+					<legend class="legend">Сообщение</legend>
+					<textarea
+						id="message"
+						class="input textarea"
+						placeholder="Ваше сообщение"
+						name="message"
+						required
+					></textarea>
+				</label>
+				<label class="label label-checkbox">
+					<input class="checkbox" type="checkbox" required />
+					<span class="text-checkbox">Я принимаю правила</span>
+				</label>
+			</fieldset>
+			<button class="button">Отправить</button>
+		</form>
+	</body>
+</html>

@@ -1,0 +1,148 @@
+.article {
+	padding-top: 80px;
+	padding-bottom: 120px;
+}
+
+.article-title-medium {
+	font-size: 36px;
+}
+
+.article-text {
+	margin-bottom: 20px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 130%;
+	color: #535755;
+}
+
+.article-text:last-child {
+	margin-bottom: 0;
+}
+
+.article-mb-1 {
+	margin-bottom: 80px;
+}
+
+.article-mb-2 {
+	margin-bottom: 40px;
+}
+
+.article-decor-wrapper {
+	position: relative;
+}
+
+.article-decor-wrapper-1::before {
+	top: 100px;
+	left: 0px;
+}
+
+.article-decor-wrapper-2::before {
+	bottom: 136px;
+	right: 0px;
+}
+
+.article-list {
+	margin-top: 0;
+	padding-left: 16px;
+}
+
+.article-item:not(:last-child) {
+	margin-bottom: 12px;
+}
+
+.article-item::marker {
+	font-size: 22px;
+	color: #3596ed;
+}
+
+.article-play-button {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	width: 60px;
+	height: 60px;
+	padding: 0;
+	background-color: #3596ed;
+	border: none;
+	border-radius: 50%;
+	cursor: pointer;
+	-webkit-transition: background-color 0.2s;
+	-o-transition: background-color 0.2s;
+	transition: background-color 0.2s;
+}
+.article-play-button:hover {
+	background-color: #2499ff;
+}
+.article-play-button:not(:disabled):active {
+	background-color: #328ddc;
+}
+@media (width<=992px) {
+	.article-mb-1 {
+		margin-bottom: 60px;
+	}
+}
+@media (width<=768px) {
+	.article-decor-wrapper::before {
+		display: none;
+	}
+	.article-mb-1 {
+		margin-bottom: 50px;
+	}
+	h1.title-large {
+		font-size: 44px;
+	}
+	.article-title-medium {
+		font-size: 30px;
+	}
+	.article {
+		padding: 60px 0 80px;
+	}
+}
+@media (width<=576px) {
+	.article {
+		padding: 50px 0 60px;
+	}
+	.article-mb-1 {
+		margin-bottom: 40px;
+	}
+	.article-mb-2 {
+		margin-bottom: 30px;
+	}
+	h1.title-large {
+		font-size: 35px;
+	}
+	.article-title-medium {
+		margin-bottom: 28px;
+	}
+	.article-play-button {
+		width: 50px;
+		height: 50px;
+	}
+	.article-play-button img {
+		width: 18px;
+		height: auto;
+	}
+}
+@media (width<=375px) {
+	.article {
+		padding-top: 35px;
+	}
+	.article-mb-1 {
+		margin-bottom: 30px;
+	}
+	.article-mb-2 {
+		margin-bottom: 25px;
+	}
+}

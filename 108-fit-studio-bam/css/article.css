@@ -1,0 +1,148 @@
+.article {
+	padding-top: 80px;
+	padding-bottom: 120px;
+}
+
+.article__title--medium {
+	font-size: 36px;
+}
+
+.article__text {
+	margin-bottom: 20px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 130%;
+	color: #535755;
+}
+
+.article__text:last-child {
+	margin-bottom: 0;
+}
+
+.article__mb-big {
+	margin-bottom: 80px;
+}
+
+.article__mb-small {
+	margin-bottom: 40px;
+}
+
+.article__decor-wrapper {
+	position: relative;
+}
+
+.article__decor-wrapper--top::before {
+	top: 100px;
+	left: 0px;
+}
+
+.article__decor-wrapper--bottom::before {
+	bottom: 136px;
+	right: 0px;
+}
+
+.article__list {
+	margin-top: 0;
+	padding-left: 16px;
+}
+
+.article__item:not(:last-child) {
+	margin-bottom: 12px;
+}
+
+.article__item::marker {
+	font-size: 22px;
+	color: #3596ed;
+}
+
+.article__play-button {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	width: 60px;
+	height: 60px;
+	padding: 0;
+	background-color: #3596ed;
+	border: none;
+	border-radius: 50%;
+	cursor: pointer;
+	-webkit-transition: background-color 0.2s;
+	-o-transition: background-color 0.2s;
+	transition: background-color 0.2s;
+}
+.article__play-button:hover {
+	background-color: #2499ff;
+}
+.article__play-button:not(:disabled):active {
+	background-color: #328ddc;
+}
+@media (width<=992px) {
+	.article__mb-small {
+		margin-bottom: 60px;
+	}
+}
+@media (width<=768px) {
+	.article__decor-wrapper::before {
+		display: none;
+	}
+	.article__mb-big {
+		margin-bottom: 50px;
+	}
+	.article__title {
+		font-size: 44px;
+	}
+	.article__title--medium {
+		font-size: 30px;
+	}
+	.article {
+		padding: 60px 0 80px;
+	}
+}
+@media (width<=576px) {
+	.article {
+		padding: 50px 0 60px;
+	}
+	.article__mb-big {
+		margin-bottom: 40px;
+	}
+	.article__mb-small {
+		margin-bottom: 30px;
+	}
+	.article__title--large {
+		font-size: 35px;
+	}
+	.article__title--medium {
+		margin-bottom: 28px;
+	}
+	.article__play-button {
+		width: 50px;
+		height: 50px;
+	}
+	.article__play-icon-img {
+		width: 18px;
+		height: auto;
+	}
+}
+@media (width<=375px) {
+	.article {
+		padding-top: 35px;
+	}
+	.article__mb-big {
+		margin-bottom: 30px;
+	}
+	.article__mb-small {
+		margin-bottom: 25px;
+	}
+}

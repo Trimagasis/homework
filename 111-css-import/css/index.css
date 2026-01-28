@@ -1,0 +1,13 @@
+@import "./vars.css";
+
+body {
+	background-color: var(--second-color);
+	color: var(--main-color);
+}
+button {
+	border-radius: 8px;
+	border: none;
+	background-color: var(--accent-color);
+	color: var(--main-color);
+	cursor: pointer;
+}

@@ -1,0 +1,108 @@
+.characteristics__video {
+	position: relative;
+}
+@media (width>576px) {
+	.characteristics__video {
+		margin-bottom: 52px;
+	}
+}
+
+@media (width<=576px) {
+	.characteristics__video {
+		margin-bottom: 32px;
+	}
+}
+
+.characteristics__video-img {
+	border: 1px solid var(--main-color);
+	border-radius: 12px;
+	overflow: hidden;
+}
+
+.characteristics__video-play-link {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transform: translate(-50%, -50%);
+	border-radius: 50%;
+	background-color: var(--overlay-color);
+	border: 1px solid var(--main-color);
+	box-shadow: var(--shadow-main-glow);
+	transition:
+		border-color var(--transition-time),
+		box-shadow var(--transition-time);
+}
+
+@media (width>576px) {
+	.characteristics__video-play-link {
+		width: 80px;
+		height: 80px;
+	}
+}
+
+@media (width<=576px) {
+	.characteristics__video-play-link {
+		width: 48px;
+		height: 48px;
+	}
+}
+
+@media (any-hover: hover) {
+	.characteristics__video-play-link:hover {
+		border-color: var(--accent-color);
+		box-shadow: var(--shadow-accent-glow);
+	}
+}
+
+.characteristics__video-play-link:active {
+	border-color: var(--accent-color);
+	box-shadow: var(--shadow-accent-glow);
+}
+
+.characteristics__video-play-icon {
+	position: absolute;
+}
+
+@media (width>576px) {
+	.characteristics__video-play-icon {
+		width: 17px;
+		height: 24px;
+		transform: translateX(2px);
+	}
+}
+
+@media (width<=576px) {
+	.characteristics__video-play-icon {
+		width: 10px;
+		height: 12px;
+		transform: translateX(1px);
+	}
+}
+.characteristics__feature {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(345px, 1fr));
+	grid-template-rows: auto 1fr auto;
+	gap: 32px 20px;
+}
+.characteristics__feature-item-icon {
+	margin-bottom: 4px;
+}
+
+@media (width>576px) {
+	.characteristics__feature-item-icon {
+		width: 56px;
+		height: 56px;
+		transform: translateX(-8px);
+	}
+}
+
+@media (width<=576px) {
+	.characteristics__feature-item-icon {
+		width: 48px;
+		height: 48px;
+		transform: translateX(-6px);
+	}
+}

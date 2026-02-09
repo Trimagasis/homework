@@ -1,0 +1,58 @@
+:root {
+	/* typography */
+	--font-family: "Oswald", sans-serif;
+	--second-family: "Archivo", sans-serif;
+
+	/* colors - base */
+	--main-color: #fff;
+	--accent-color: #f47521;
+	--bg-color: #141414;
+	--secondary-bg-color: #303030;
+
+	/* colors - text */
+	--description-color: #979797;
+	--description-table-color: #b5b5b5;
+	--date-time-color: #8b8a8a;
+	--footer-main-color: #a6a6a6;
+
+	/* colors - ui */
+	--main-color-accordion: #e9e9e9;
+	--main-color-summary: #e4e4e4;
+	--main-color-hover: #e0e0e0;
+	--secondary-color: rgb(255, 255, 255, 30%);
+	--secondary-color-hover: rgb(255, 255, 255, 50%);
+	--stripe-color: #7c7c7c;
+	--running-line-color: #000;
+	--text-bg-color-opacity: #1414144d;
+	--text-bg-color-opacity-hover: #1414146c;
+	--our-fit-center-bg-color: #d9d9d9;
+
+	/* layout */
+	--container-width: 1920px;
+	--container-padding: 15px;
+	--header-footer-witch: min(
+		var(--container-width),
+		100% - clamp(0.938rem, -6.692rem + 11.1vw, 6.625rem) * 2
+			/* 1100px - 1920px */
+	);
+
+	/* motion */
+	--transition-time-fast: 0.3s;
+	--transition-time-slow: 0.4s;
+	--animation-ticker-time: 8s;
+	--time-is-smooth: 1s;
+	--loading-time: 2s;
+
+	/* transforms */
+	--transform-scale: 1.2;
+	--transform-scale-small: 1.05;
+	--transform-scale-decrease: 0.97;
+	--translate-value: 10px;
+
+	/* layers */
+	--layer-negative: -1;
+	--layer-0: 0;
+	--layer-1: 1;
+	--layer-2: 2;
+	--layer-3: 3;
+}

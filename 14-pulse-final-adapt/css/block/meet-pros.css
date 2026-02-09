@@ -1,0 +1,137 @@
+.meet-pros__background-elements {
+	position: relative;
+	z-index: var(--layer-negative);
+}
+
+.meet-pros .background-elements__points {
+	position: absolute;
+	top: 117px;
+	right: 118px;
+}
+
+.meet-pros .background-elements__title {
+	position: absolute;
+	top: -91px;
+	left: -452px;
+}
+
+.meet-pros .cards-section__grid {
+	max-width: 1707px;
+}
+
+@media (width>1000px) {
+	.meet-pros .cards-section__grid {
+		grid-template-columns: repeat(4, minmax(200px, 1fr));
+		gap: 45px;
+	}
+}
+
+@media (width<=1000px) {
+	.meet-pros .cards-section__grid {
+		grid-template-columns: repeat(2, minmax(100px, 1fr));
+	}
+}
+
+@media (width<=768px) and (width>576px) {
+	.meet-pros .cards-section__grid {
+		gap: 35px;
+	}
+}
+
+@media (width<=576px) {
+	.meet-pros .cards-section__grid {
+		gap: 20px;
+	}
+}
+
+.meet-pros__card-item__container {
+	position: relative;
+	margin-bottom: 33px;
+}
+
+@media (width<=768px) and (width>576px) {
+	.meet-pros__card-item__container {
+		margin-bottom: 20px;
+	}
+}
+
+@media (width<=576px) {
+	.meet-pros__card-item__container {
+		margin-bottom: 12px;
+	}
+}
+
+.meet-pros .cards-section__media {
+	margin-bottom: 0;
+}
+
+.meet-pros__card-item-container-twitter {
+	position: absolute;
+	top: 30px;
+	right: 34px;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background-color: var(--accent-color);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+@media (width<=1400px) and (width>1150px) {
+	.meet-pros__card-item-container-twitter {
+		top: 27px;
+		right: 29px;
+		width: 50px;
+		height: 50px;
+	}
+}
+
+@media (width<=1150px) and (width>576px) {
+	.meet-pros__card-item-container-twitter {
+		top: 17px;
+		right: 17px;
+		width: 45px;
+		height: 45px;
+	}
+}
+
+@media (width<=576px) and (width>450px) {
+	.meet-pros__card-item-container-twitter {
+		top: 15px;
+		right: 15px;
+		width: 35px;
+		height: 35px;
+	}
+}
+
+@media (width<=450px) {
+	.meet-pros__card-item-container-twitter {
+		top: 7px;
+		right: 7px;
+		width: 30px;
+		height: 30px;
+	}
+}
+
+.meet-pros__card-item-container-twitter-icon {
+	display: block;
+	fill: var(--main-color);
+}
+
+.meet-pros__cards-item-title {
+	font-size: 32px;
+	text-transform: uppercase;
+}
+
+@media (width<=576px) and (width>420px) {
+	.meet-pros__cards-item-title {
+		font-size: 24px;
+	}
+}
+
+@media (width<=420px) {
+	.meet-pros__cards-item-title {
+		font-size: 21px;
+	}
+}

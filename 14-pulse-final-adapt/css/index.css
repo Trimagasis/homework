@@ -1,0 +1,25 @@
+/* base */
+@import "./base/normalize.css";
+@import "./base/fonts.css";
+@import "./base/vars.css";
+@import "./base/globals.css";
+
+/* blocks */
+@import "./block/header.css";
+@import "./block/burger.css";
+@import "./block/hero.css";
+@import "./block/whey.css";
+@import "./block/ticker.css";
+@import "./block/training-types.css";
+@import "./block/cards-section.css";
+@import "./block/our-programs.css";
+@import "./block/view-full-timetable.css";
+@import "./block/box-girl.css";
+@import "./block/tabs.css";
+@import "./block/training.css";
+@import "./block/tables.css";
+@import "./block/gym-video.css";
+@import "./block/our-fitness-center.css";
+@import "./block/meet-pros.css";
+@import "./block/latest-blog.css";
+@import "./block/footer.css";

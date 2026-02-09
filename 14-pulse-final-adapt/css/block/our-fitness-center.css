@@ -1,0 +1,130 @@
+.our-fitness-center {
+	background-color: var(--our-fit-center-bg-color);
+}
+
+.our-fitness-center__container {
+	max-width: 1210px;
+	margin: 0 auto;
+	padding: 148px 30px 212px;
+}
+
+@media (width<=768px) {
+	.our-fitness-center__container {
+		padding: 80px 30px 100px;
+	}
+}
+
+@media (width<=576px) {
+	.our-fitness-center__container {
+		padding: 50px 15px 50px;
+	}
+}
+
+.our-fitness-center__title {
+	margin-bottom: 60px;
+	color: var(--bg-color);
+}
+
+@media (width<=576px) {
+	.our-fitness-center__title {
+		margin-bottom: 40px;
+	}
+}
+
+.our-fitness-center__details {
+	border-top: 1px solid var(--bg-color);
+}
+
+.our-fitness-center__details:last-of-type {
+	border-bottom: 1px solid var(--bg-color);
+}
+
+.our-fitness-center__details.is-open .our-fitness-center__summary {
+	background-color: var(--main-color-summary);
+}
+
+.our-fitness-center__summary {
+	padding: 30px 5px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	transition: background-color var(--transition-time-fast) ease;
+}
+
+@media (any-hover: hover) {
+	.our-fitness-center__summary:hover {
+		background-color: var(--main-color-hover);
+	}
+}
+
+.our-fitness-center__summary-left {
+	position: relative;
+	display: flex;
+}
+
+.our-fitness-center__summary-left-time {
+	z-index: var(--layer-2);
+	margin-right: clamp(1.125rem, -1.517rem + 11.27vw, 6.938rem);
+	font-weight: 400;
+	font-size: 20px;
+	color: var(--bg-color);
+}
+
+.our-fitness-center__summary-left-title {
+	z-index: var(--layer-1);
+	position: relative;
+	font-family: var(--second-family);
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 90%;
+	color: var(--bg-color);
+}
+
+.our-fitness-center__summary-left-title::before {
+	z-index: var(--layer-negative);
+	position: absolute;
+	content: "";
+	display: block;
+	top: 50%;
+	left: -26px;
+	transform: translateY(-50%);
+	width: 59px;
+	border-radius: 50%;
+	height: 59px;
+	opacity: 0;
+	background-color: var(--accent-color);
+	transition:
+		opacity var(--transition-time-fast) ease,
+		transform var(--transition-time-fast) ease;
+}
+
+.our-fitness-center__details.is-open
+	.our-fitness-center__summary-left-title::before {
+	opacity: 1;
+	transform: translateX(-20px) translateY(-50%);
+}
+
+.our-fitness-center__summary-arrow-icon {
+	display: block;
+	transform-origin: 50% 50%;
+	transform-box: fill-box; /* важно для svg */
+	transition: transform var(--transition-time-fast) ease;
+}
+
+.our-fitness-center__details.is-open .our-fitness-center__summary-arrow-icon {
+	transform: rotate(90deg);
+}
+
+.our-fitness-center__content {
+	overflow: hidden;
+}
+
+.our-fitness-center__details-text {
+	font-family: var(--second-family);
+	padding: 40px 10px;
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 1.5;
+	color: var(--bg-color);
+	background-color: var(--main-color-accordion);
+}

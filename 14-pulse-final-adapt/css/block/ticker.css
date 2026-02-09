@@ -1,0 +1,67 @@
+.ticker {
+	overflow: hidden;
+	background: var(--main-color);
+	font-weight: 400;
+	color: var(--running-line-color);
+}
+
+@media (width>1100px) {
+	.ticker {
+		padding: 35px 0 36px;
+		font-size: 100px;
+	}
+}
+
+@media (width<=1100px) and (width>756px) {
+	.ticker {
+		padding: 30px 0 31px;
+		font-size: 70px;
+	}
+}
+
+@media (width<=756px) and (width>576px) {
+	.ticker {
+		padding: 25px 0 26px;
+		font-size: 55px;
+	}
+}
+
+@media (width<=576px) {
+	.ticker {
+		padding: 25px 0 26px;
+		font-size: 50px;
+	}
+}
+
+.ticker__track {
+	display: flex;
+	width: max-content;
+	animation: scroll var(--animation-ticker-time) linear infinite;
+	white-space: nowrap;
+	--ticker-shift: 0px;
+}
+
+.ticker__group {
+	display: flex;
+	align-items: center;
+	gap: 34px;
+	padding-right: 34px;
+	white-space: nowrap;
+}
+
+.dot {
+	display: inline-block;
+	border-radius: 50%;
+	width: 14px;
+	height: 14px;
+	background-color: var(--accent-color);
+}
+
+@keyframes scroll {
+	from {
+		transform: translateX(0);
+	}
+	to {
+		transform: translateX(calc(-1 * var(--ticker-shift)));
+	}
+}

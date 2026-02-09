@@ -1,0 +1,2476 @@
+<!doctype html>
+<html class="page" lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="shortcut icon"
+			href="./icons/pulse-icon-48x48.ico"
+			type="image/x-icon"
+		/>
+		<link rel="stylesheet" href="./css/index.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+		/>
+		<script
+			src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"
+			defer
+		></script>
+		<script src="./js/fslightbox.js" type="module"></script>
+		<script src="./js/tabs.js" type="module"></script>
+		<script src="./js/index.js" type="module"></script>
+		<title>PULSE</title>
+	</head>
+	<body class="page__body">
+		<header class="header">
+			<div class="header__container container">
+				<a
+					class="header__logo logo"
+					href="/"
+					aria-label="Pulse home"
+					title="Pulse home"
+				>
+					<svg
+						class="header__logo-img"
+						width="198"
+						height="38"
+						aria-hidden="true"
+						focusable="false"
+					>
+						<use href="./icons/sprite.svg#pulse-logo"></use>
+					</svg>
+				</a>
+				<nav class="header__menu" id="header__menu" aria-label="Main menu">
+					<ul class="header__menu-list">
+						<li class="header__menu-item">
+							<a href="#home" class="header__menu-item-link menu__link">HOME</a>
+						</li>
+						<li class="header__menu-item">
+							<a href="#catalogs" class="header__menu-item-link menu__link"
+								>CATALOGS</a
+							>
+						</li>
+						<li class="header__menu-item">
+							<a href="#blog" class="header__menu-item-link">BLOG</a>
+						</li>
+						<li class="header__menu-item">
+							<a href="#collections" class="header__menu-item-link menu__link"
+								>COLLECTIONS</a
+							>
+						</li>
+						<li class="header__menu-item">
+							<a href="#contact-us" class="header__menu-item-link menu__link"
+								>CONTACT US</a
+							>
+						</li>
+					</ul>
+				</nav>
+				<div class="header__actions">
+					<button
+						class="header__actions-button header__actions-cart"
+						title="Cart"
+						aria-label="Cart"
+					>
+						<svg
+							aria-hidden="true"
+							focusable="false"
+							class="header__actions-icon"
+							width="38"
+							height="33"
+						>
+							<use href="./icons/sprite.svg#cart"></use>
+						</svg>
+						<div class="header__cart-circle">
+							<span class="header__cart-circle-text">2</span>
+						</div>
+					</button>
+					<button
+						class="header__actions-button"
+						title="Search"
+						aria-label="Search"
+					>
+						<svg
+							aria-hidden="true"
+							focusable="false"
+							class="header__actions-search"
+							width="29"
+							height="29"
+						>
+							<use href="./icons/sprite.svg#search"></use>
+						</svg>
+					</button>
+					<button
+						class="header__burger burger"
+						aria-label="Open menu"
+						title="Open menu"
+						aria-expanded="false"
+						aria-controls="header__menu"
+					>
+						<svg aria-hidden="true" focusable="false" width="24" height="24">
+							<use
+								class="burger__icon-menu"
+								href="./icons/sprite.svg#menu-burger"
+							></use>
+							<use
+								class="burger__icon-cross"
+								href="./icons/sprite.svg#menu-cross"
+							></use>
+						</svg>
+					</button>
+				</div>
+			</div>
+		</header>
+		<section id="home" class="hero">
+			<div class="hero__container container">
+				<div class="hero__title-wrapper">
+					<h1 class="hero__title-left">POWER<br />FROM WITHIN</h1>
+					<h1 class="hero__title-right title-transparent">WITHIN</h1>
+				</div>
+				<div class="hero__image-wrapper">
+					<picture>
+						<source srcset="./images/hero/hero-img.webp" type="image/webp" />
+						<img
+							fetchpriority="high"
+							loading="eager"
+							class="hero__image-wrapper-img"
+							width="1920"
+							height="519"
+							src="./images/hero/hero-img.jpg"
+							alt="Athlete lifting a barbell"
+						/>
+					</picture>
+					<a
+						class="hero__image-wrapper-arrow"
+						href="/"
+						aria-label="Explore more"
+						title="Explore more"
+					>
+						<svg
+							aria-hidden="true"
+							focusable="false"
+							class="hero__image-wrapper-arrow-svg"
+							width="122"
+							height="122"
+						>
+							<use href="./icons/sprite.svg#circle-arrow-right"></use>
+						</svg>
+					</a>
+				</div>
+				<div class="hero__programs">
+					<a href="#" class="hero__programs-item">
+						<div class="hero__programs-item-description">
+							<h4 class="hero__description-category-title">FITNESS</h4>
+							<h3 class="hero__description-main-title">IMPROVE YOUR STRENGH</h3>
+						</div>
+
+						<div class="hero__programs-item-bottom">
+							<h5 class="hero__programs-item-bottom-title">GET STARTED</h5>
+							<svg width="21" height="21" aria-hidden="true" focusable="false">
+								<use href="./icons/sprite.svg#arrow-right"></use>
+							</svg>
+						</div>
+					</a>
+					<a href="#" class="hero__programs-item">
+						<div class="hero__programs-item-description">
+							<h4 class="hero__description-category-title">BODYBUILDING</h4>
+							<h3 class="hero__description-main-title">GET BEST BODY SHAPES</h3>
+						</div>
+
+						<div class="hero__programs-item-bottom">
+							<h5 class="hero__programs-item-bottom-title">GET STARTED</h5>
+							<svg width="21" height="21" aria-hidden="true" focusable="false">
+								<use href="./icons/sprite.svg#arrow-right"></use>
+							</svg>
+						</div>
+					</a>
+					<a href="#" class="hero__programs-item">
+						<div class="hero__programs-item-description">
+							<h4 class="hero__description-category-title">CROSSFIT</h4>
+							<h3 class="hero__description-main-title">
+								THE BEST DIETARY PLANS
+							</h3>
+						</div>
+
+						<div class="hero__programs-item-bottom">
+							<h5 class="hero__programs-item-bottom-title">GET STARTED</h5>
+							<svg width="21" height="21" aria-hidden="true" focusable="false">
+								<use href="./icons/sprite.svg#arrow-right"></use>
+							</svg>
+						</div>
+					</a>
+				</div>
+			</div>
+		</section>
+		<section id="catalogs" class="whey">
+			<div class="whey__container container">
+				<div class="whey__slider swiper">
+					<div class="whey__slider-wrapper swiper-wrapper">
+						<div class="whey__slide swiper-slide">
+							<div class="whey__slide-inner">
+								<svg
+									aria-hidden="true"
+									focusable="false"
+									class="whey__slide-points"
+									width="767"
+									height="767"
+								>
+									<use href="./icons/sprite.svg#points"></use>
+								</svg>
+								<div class="whey__left">
+									<div class="whey__description">
+										<h1 class="whey__description-title">
+											BE
+											<span class="whey__description-title-accent">BETTER</span>
+										</h1>
+										<h2 class="whey__description-small-title">OUR STORY</h2>
+										<p class="whey__description-text">
+											Ac nec est ultrices varius morbi et non. Donec quam sed
+											eget purus. Elementum sed malesuada senectus feugiat
+											faucibus morbi a neque ultricies. Nisl maecenas eget
+											ultricies in lobortis.
+										</p>
+										<h2 class="whey__description-small-title">OUR MISSION</h2>
+										<p class="whey__description-text">
+											Ac nec est ultrices varius morbi et non. Donec quam sed
+											eget purus. Elementum sed malesuada senectus feugiat.
+										</p>
+										<a
+											class="whey__description-button description-button"
+											href="/"
+											>READ MORE</a
+										>
+									</div>
+								</div>
+								<div class="whey__right">
+									<div class="whey__illustration">
+										<div class="whey__illustration-specification">
+											<div class="specification__protein">
+												<h3 class="specification__title">24G</h3>
+												<p
+													class="specification__text--protein specification__text"
+												>
+													PROTEIN
+												</p>
+											</div>
+											<div class="specification__bcaas">
+												<h3 class="specification__title">5.5G</h3>
+												<p
+													class="specification__text--bcaas specification__text"
+												>
+													BCAAS
+												</p>
+											</div>
+										</div>
+										<div class="whey__illustration-image">
+											<picture>
+												<source
+													srcset="./images/whey/whey-protein.webp"
+													type="image/webp"
+												/>
+												<img
+													decoding="async"
+													loading="lazy"
+													class="whey__illustration-image-protein"
+													width="476"
+													height="679"
+													src="./images/whey/whey-protein.png"
+													alt="Whey protein jar"
+												/>
+											</picture>
+											<svg
+												aria-hidden="true"
+												focusable="false"
+												class="whey__illustration-image-print"
+												width="211"
+												height="211"
+											>
+												<use href="./icons/sprite.svg#whey-print"></use>
+											</svg>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="whey__slide swiper-slide">
+							<div class="whey__slide-inner">
+								<svg
+									aria-hidden="true"
+									focusable="false"
+									class="whey__slide-points"
+									width="767"
+									height="767"
+								>
+									<use href="./icons/sprite.svg#points"></use>
+								</svg>
+								<div class="whey__left">
+									<div class="whey__description">
+										<h1 class="whey__description-title">
+											BE
+											<span class="whey__description-title-accent">BETTER</span>
+										</h1>
+										<h2 class="whey__description-small-title">OUR STORY</h2>
+										<p class="whey__description-text">
+											Ac nec est ultrices varius morbi et non. Donec quam sed
+											eget purus. Elementum sed malesuada senectus feugiat
+											faucibus morbi a neque ultricies. Nisl maecenas eget
+											ultricies in lobortis.
+										</p>
+										<h2 class="whey__description-small-title">OUR MISSION</h2>
+										<p class="whey__description-text">
+											Ac nec est ultrices varius morbi et non. Donec quam sed
+											eget purus. Elementum sed malesuada senectus feugiat.
+										</p>
+										<a
+											class="whey__description-button description-button"
+											href="/"
+											>READ MORE</a
+										>
+									</div>
+								</div>
+								<div class="whey__right">
+									<div class="whey__illustration">
+										<div class="whey__illustration-specification">
+											<div class="specification__protein">
+												<h3 class="specification__title">24G</h3>
+												<p
+													class="specification__text--protein specification__text"
+												>
+													PROTEIN
+												</p>
+											</div>
+											<div class="specification__bcaas">
+												<h3 class="specification__title">5.5G</h3>
+												<p
+													class="specification__text--bcaas specification__text"
+												>
+													BCAAS
+												</p>
+											</div>
+										</div>
+										<div class="whey__illustration-image">
+											<picture>
+												<source
+													srcset="./images/whey/whey-protein.webp"
+													type="image/webp"
+												/>
+												<img
+													decoding="async"
+													loading="lazy"
+													class="whey__illustration-image-protein"
+													width="476"
+													height="679"
+													src="./images/whey/whey-protein.png"
+													alt="Whey protein jar"
+												/>
+											</picture>
+											<svg
+												aria-hidden="true"
+												focusable="false"
+												class="whey__illustration-image-print"
+												width="211"
+												height="211"
+											>
+												<use href="./icons/sprite.svg#whey-print"></use>
+											</svg>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="whey__slide swiper-slide">
+							<div class="whey__slide-inner">
+								<svg
+									aria-hidden="true"
+									focusable="false"
+									class="whey__slide-points"
+									width="767"
+									height="767"
+								>
+									<use href="./icons/sprite.svg#points"></use>
+								</svg>
+								<div class="whey__left">
+									<div class="whey__description">
+										<h1 class="whey__description-title">
+											BE
+											<span class="whey__description-title-accent">BETTER</span>
+										</h1>
+										<h2 class="whey__description-small-title">OUR STORY</h2>
+										<p class="whey__description-text">
+											Ac nec est ultrices varius morbi et non. Donec quam sed
+											eget purus. Elementum sed malesuada senectus feugiat
+											faucibus morbi a neque ultricies. Nisl maecenas eget
+											ultricies in lobortis.
+										</p>
+										<h2 class="whey__description-small-title">OUR MISSION</h2>
+										<p class="whey__description-text">
+											Ac nec est ultrices varius morbi et non. Donec quam sed
+											eget purus. Elementum sed malesuada senectus feugiat.
+										</p>
+										<a
+											class="whey__description-button description-button"
+											href="/"
+											>READ MORE</a
+										>
+									</div>
+								</div>
+								<div class="whey__right">
+									<div class="whey__illustration">
+										<div class="whey__illustration-specification">
+											<div class="specification__protein">
+												<h3 class="specification__title">24G</h3>
+												<p
+													class="specification__text--protein specification__text"
+												>
+													PROTEIN
+												</p>
+											</div>
+											<div class="specification__bcaas">
+												<h3 class="specification__title">5.5G</h3>
+												<p
+													class="specification__text--bcaas specification__text"
+												>
+													BCAAS
+												</p>
+											</div>
+										</div>
+										<div class="whey__illustration-image">
+											<picture>
+												<source
+													srcset="./images/whey/whey-protein.webp"
+													type="image/webp"
+												/>
+												<img
+													decoding="async"
+													loading="lazy"
+													class="whey__illustration-image-protein"
+													width="476"
+													height="679"
+													src="./images/whey/whey-protein.png"
+													alt="Whey protein jar"
+												/>
+											</picture>
+											<svg
+												aria-hidden="true"
+												focusable="false"
+												class="whey__illustration-image-print"
+												width="211"
+												height="211"
+											>
+												<use href="./icons/sprite.svg#whey-print"></use>
+											</svg>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="whey__slide swiper-slide">
+							<div class="whey__slide-inner">
+								<svg
+									aria-hidden="true"
+									focusable="false"
+									class="whey__slide-points"
+									width="767"
+									height="767"
+								>
+									<use href="./icons/sprite.svg#points"></use>
+								</svg>
+								<div class="whey__left">
+									<div class="whey__description">
+										<h1 class="whey__description-title">
+											BE
+											<span class="whey__description-title-accent">BETTER</span>
+										</h1>
+										<h2 class="whey__description-small-title">OUR STORY</h2>
+										<p class="whey__description-text">
+											Ac nec est ultrices varius morbi et non. Donec quam sed
+											eget purus. Elementum sed malesuada senectus feugiat
+											faucibus morbi a neque ultricies. Nisl maecenas eget
+											ultricies in lobortis.
+										</p>
+										<h2 class="whey__description-small-title">OUR MISSION</h2>
+										<p class="whey__description-text">
+											Ac nec est ultrices varius morbi et non. Donec quam sed
+											eget purus. Elementum sed malesuada senectus feugiat.
+										</p>
+										<a
+											class="whey__description-button description-button"
+											href="/"
+											>READ MORE</a
+										>
+									</div>
+								</div>
+								<div class="whey__right">
+									<div class="whey__illustration">
+										<div class="whey__illustration-specification">
+											<div class="specification__protein">
+												<h3 class="specification__title">24G</h3>
+												<p
+													class="specification__text--protein specification__text"
+												>
+													PROTEIN
+												</p>
+											</div>
+											<div class="specification__bcaas">
+												<h3 class="specification__title">5.5G</h3>
+												<p
+													class="specification__text--bcaas specification__text"
+												>
+													BCAAS
+												</p>
+											</div>
+										</div>
+										<div class="whey__illustration-image">
+											<picture>
+												<source
+													srcset="./images/whey/whey-protein.webp"
+													type="image/webp"
+												/>
+												<img
+													decoding="async"
+													loading="lazy"
+													class="whey__illustration-image-protein"
+													width="476"
+													height="679"
+													src="./images/whey/whey-protein.png"
+													alt="Whey protein jar"
+												/>
+											</picture>
+											<svg
+												aria-hidden="true"
+												focusable="false"
+												class="whey__illustration-image-print"
+												width="211"
+												height="211"
+											>
+												<use href="./icons/sprite.svg#whey-print"></use>
+											</svg>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="whey__pagination swiper-pagination"></div>
+				</div>
+			</div>
+		</section>
+		<section class="ticker" data-ticker>
+			<div class="ticker__container container">
+				<div class="ticker__track">
+					<div class="ticker__group">
+						<span>APPROACH</span><span class="dot"></span> <span>CARDIO</span
+						><span class="dot"></span> <span>KICKBOX</span
+						><span class="dot"></span> <span>JIU-JITSU</span
+						><span class="dot"></span> <span>BOXING</span
+						><span class="dot"></span>
+					</div>
+					<div class="ticker__group">
+						<span>APPROACH</span><span class="dot"></span> <span>CARDIO</span
+						><span class="dot"></span> <span>KICKBOX</span
+						><span class="dot"></span> <span>JIU-JITSU</span
+						><span class="dot"></span> <span>BOXING</span
+						><span class="dot"></span>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="training-types">
+			<div class="training-types__container container">
+				<div class="training-types__cards-wrapper">
+					<a class="training-types__card" href="/">
+						<picture class="training-types__card-picture">
+							<source
+								srcset="./images/training-types/gear.webp"
+								type="image/webp"
+							/>
+							<img
+								decoding="async"
+								loading="lazy"
+								class="training-types__card-img"
+								width="640"
+								height="847"
+								src="./images/training-types/gear.jpg"
+								alt="Man training with battle ropes"
+							/>
+						</picture>
+						<div class="training-types__card-description">
+							<h5 class="training-types__card-description-title title-small">
+								GEAR
+							</h5>
+							<svg
+								aria-hidden="true"
+								focusable="false"
+								class="training-types__card-description-icon"
+								width="21"
+								height="21"
+							>
+								<use href="./icons/sprite.svg#arrow-right"></use>
+							</svg>
+						</div>
+					</a>
+					<a class="training-types__card" href="/">
+						<picture class="training-types__card-picture">
+							<source
+								srcset="./images/training-types/acessories.webp"
+								type="image/webp"
+							/>
+							<img
+								decoding="async"
+								loading="lazy"
+								class="training-types__card-img"
+								width="640"
+								height="847"
+								src="./images/training-types/acessories.jpg"
+								alt="Sports accessories in orange tones on an orange background"
+							/>
+						</picture>
+						<div class="training-types__card-description">
+							<h5 class="training-types__card-description-title title-small">
+								ACESSORIES
+							</h5>
+							<svg
+								aria-hidden="true"
+								focusable="false"
+								class="training-types__card-description-icon"
+								width="21"
+								height="21"
+							>
+								<use href="./icons/sprite.svg#arrow-right"></use>
+							</svg>
+						</div>
+					</a>
+					<a class="training-types__card" href="/">
+						<picture class="training-types__card-picture">
+							<source
+								srcset="./images/training-types/design.webp"
+								type="image/webp"
+							/>
+							<img
+								decoding="async"
+								loading="lazy"
+								class="training-types__card-img"
+								width="640"
+								height="847"
+								src="./images/training-types/design.jpg"
+								alt="Sports accessories in orange tones on an orange background"
+							/>
+						</picture>
+						<div class="training-types__card-description">
+							<h5 class="training-types__card-description-title title-small">
+								DESIGN
+							</h5>
+							<svg
+								aria-hidden="true"
+								focusable="false"
+								class="training-types__card-description-icon"
+								width="21"
+								height="21"
+							>
+								<use href="./icons/sprite.svg#arrow-right"></use>
+							</svg>
+						</div>
+					</a>
+				</div>
+			</div>
+		</section>
+		<section class="our-programs cards-section">
+			<div class="our-programs__container container">
+				<div
+					class="our-programs__background-elements cards-section__background"
+				>
+					<svg
+						aria-hidden="true"
+						focusable="false"
+						class="background-elements__points"
+						width="767"
+						height="767"
+					>
+						<use href="./icons/sprite.svg#points"></use>
+					</svg>
+					<h2 class="background-elements__title title-transparent">WITHIN</h2>
+				</div>
+				<div class="our-programs__container cards-section__container container">
+					<header class="our-programs__header cards-section__header">
+						<h2
+							class="our-programs__header-title cards-section__title section-title"
+						>
+							OUR PROGRAMS
+						</h2>
+						<p class="our-programs__header-text cards-section__text">
+							Ac nec est ultrices varius morbi et non. Donec quam sed eget
+							purus. Elementum sed malesuada senectus.
+						</p>
+					</header>
+					<footer
+						class="our-programs__footer our-programs__cards cards-section__grid"
+					>
+						<a class="our-programs__card-item cards-section__card" href="/">
+							<picture
+								class="our-programs__card-item-picture cards-section__media"
+							>
+								<source
+									srcset="./images/our-programs/our-programs-1.webp"
+									type="image/webp"
+								/>
+								<img
+									decoding="async"
+									loading="lazy"
+									class="our-programs__card-item-img"
+									width="374"
+									height="488"
+									src="./images/our-programs/our-programs-1.jpg"
+									alt="Woman boxing"
+								/>
+							</picture>
+							<h4
+								class="our-programs__card-item-description cards-section__kicker"
+							>
+								COACHING
+								<span class="our-programs__description-dot"></span>
+								STRENGTH
+							</h4>
+							<h3
+								class="our-programs__cards-item-title cards-section__card-title"
+							>
+								GYM DAY
+							</h3>
+						</a>
+						<a class="our-programs__card-item cards-section__card" href="/">
+							<picture
+								class="our-programs__card-item-picture cards-section__media"
+							>
+								<source
+									srcset="./images/our-programs/our-programs-2.webp"
+									type="image/webp"
+								/>
+								<img
+									decoding="async"
+									loading="lazy"
+									class="our-programs__card-item-img"
+									width="374"
+									height="488"
+									src="./images/our-programs/our-programs-2.jpg"
+									alt="Woman boxing"
+								/>
+							</picture>
+							<h4
+								class="our-programs__card-item-description cards-section__kicker"
+							>
+								COACHING
+								<span class="our-programs__description-dot"></span>
+								STRENGTH
+							</h4>
+							<h3
+								class="our-programs__cards-item-title cards-section__card-title"
+							>
+								CARDIO WORKOUT
+							</h3>
+						</a>
+						<a class="our-programs__card-item cards-section__card" href="/">
+							<picture
+								class="our-programs__card-item-picture cards-section__media"
+							>
+								<source
+									srcset="./images/our-programs/our-programs-3.webp"
+									type="image/webp"
+								/>
+								<img
+									decoding="async"
+									loading="lazy"
+									class="our-programs__card-item-img"
+									width="374"
+									height="488"
+									src="./images/our-programs/our-programs-3.jpg"
+									alt="Woman boxing"
+								/>
+							</picture>
+							<h4
+								class="our-programs__card-item-description cards-section__kicker"
+							>
+								COACHING
+								<span class="our-programs__description-dot"></span>
+								STRENGTH
+							</h4>
+							<h3
+								class="our-programs__cards-item-title cards-section__card-title"
+							>
+								BODY STRENGTH
+							</h3>
+						</a>
+					</footer>
+				</div>
+			</div>
+		</section>
+		<section class="view-full-timetable">
+			<div class="view-full-timetable__container container">
+				<a href="/" class="view-full-timetable__link"
+					><h4 class="view-full-timetable__title">VIEW FULL TIMETABLE</h4>
+					<svg
+						aria-hidden="true"
+						focusable="false"
+						class="view-full-timetable__icon"
+						width="21"
+						height="21"
+					>
+						<use href="./icons/sprite.svg#arrow-right"></use></svg
+				></a>
+			</div>
+		</section>
+		<section class="box-girl">
+			<div class="box-girl__container container">
+				<svg
+					aria-hidden="true"
+					focusable="false"
+					class="box-girl__print-icon"
+					width="211"
+					height="211"
+				>
+					<use href="./icons/sprite.svg#whey-print"></use>
+				</svg>
+				<div class="box-girl__left">
+					<picture class="box-girl__left-picture box-girl__picture">
+						<source
+							srcset="./images/box-girl/box-girl-1.webp"
+							type="image/webp"
+						/>
+						<img
+							decoding="async"
+							loading="lazy"
+							class="box-girl__left-img box-girl__img"
+							width="960"
+							height="832"
+							src="./images/box-girl/box-girl-1.jpg"
+							alt="Woman wearing boxing gloves"
+						/>
+					</picture>
+				</div>
+				<div class="box-girl__right">
+					<picture class="box-girl__right-picture box-girl__picture">
+						<source
+							srcset="./images/box-girl/box-girl-2.webp"
+							type="image/webp"
+						/>
+						<img
+							decoding="async"
+							loading="lazy"
+							class="box-girl__right-img box-girl__img"
+							width="960"
+							height="832"
+							src="./images/box-girl/box-girl-2.jpg"
+							alt="Boxing match between a woman and a man"
+						/>
+					</picture>
+					<div class="box-girl__right-content">
+						<svg
+							aria-hidden="true"
+							focusable="false"
+							class="box-girl__right-icon"
+							width="100"
+							height="101"
+						>
+							<use href="./icons/sprite.svg#quotes"></use>
+						</svg>
+						<h2 class="box-girl__right-title">
+							“THIS PLACE HELP ME <br />
+							ACCOMPLISHED MY <br />
+							BIGGEST GOAL, BE IN SHAPE”
+						</h2>
+						<h4 class="box-girl__right-title-job">Graphic Designer</h4>
+						<h3 class="box-girl__right-title-name">Monica Belsley</h3>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="tabs" data-tabs>
+			<div class="tabs__container container">
+				<div class="tabs__grid">
+					<nav class="tabs__nav" role="tablist" aria-label="Sections">
+						<button
+							class="tabs__tab is-active"
+							type="button"
+							role="tab"
+							aria-selected="true"
+							aria-controls="tab-panel-pulse"
+							id="tab-pulse"
+						>
+							PULSE
+						</button>
+						<button
+							class="tabs__tab"
+							type="button"
+							role="tab"
+							aria-selected="false"
+							aria-controls="tab-panel-story"
+							id="tab-story"
+						>
+							OUR STORY
+						</button>
+						<button
+							class="tabs__tab"
+							type="button"
+							role="tab"
+							aria-selected="false"
+							aria-controls="tab-panel-approach"
+							id="tab-approach"
+						>
+							APPROACH
+						</button>
+						<button
+							class="tabs__tab"
+							type="button"
+							role="tab"
+							aria-selected="false"
+							aria-controls="tab-panel-plan"
+							id="tab-plan"
+						>
+							OUR PLAN
+						</button>
+					</nav>
+					<div class="tabs__content">
+						<div
+							class="tabs__panel is-active"
+							role="tabpanel"
+							id="tab-panel-pulse"
+							aria-labelledby="tab-pulse"
+						>
+							<h3 class="tabs__panel-title">BEST GYM</h3>
+							<p class="tabs__panel-text">
+								Ac nec est ultrices varius morbi et non. Donec quam sed eget
+								purus. Elementum sed malesuada senectus feugiat faucibus morbi a
+								neque ultricies. Nisl maecenas eget ultricies in lobortis.
+							</p>
+							<h3 class="tabs__panel-title">OUR PLAN</h3>
+							<p class="tabs__panel-text">
+								Ac nec est ultrices varius morbi et non. Donec quam sed eget
+								purus. Elementum sed malesuada senectus feugiat.
+							</p>
+							<h3 class="tabs__panel-title">TECHNIQUE</h3>
+							<p class="tabs__panel-text">
+								Donec quam sed eget purus. Elementum sed malesuada senectus
+								feugiat faucibus morbi a neque ultricies. Nisl maecenas eget
+								ultricies in lobortis.
+							</p>
+						</div>
+						<div
+							class="tabs__panel"
+							role="tabpanel"
+							id="tab-panel-story"
+							aria-labelledby="tab-story"
+							hidden
+						>
+							<h3 class="tabs__panel-title">OUR STORY</h3>
+							<p class="tabs__panel-text">
+								Ac nec est ultrices varius morbi et non. Donec quam sed eget
+								purus. Elementum sed malesuada senectus feugiat faucibus morbi a
+								neque ultricies. Nisl maecenas eget ultricies in lobortis.
+							</p>
+							<h3 class="tabs__panel-title">MISSION</h3>
+							<p class="tabs__panel-text">
+								Elementum sed malesuada senectus feugiat. Nisl maecenas eget
+								ultricies in lobortis.
+							</p>
+							<h3 class="tabs__panel-title">VALUES</h3>
+							<p class="tabs__panel-text">
+								Donec quam sed eget purus. Elementum sed malesuada senectus
+								feugiat faucibus morbi a neque ultricies.
+							</p>
+						</div>
+						<div
+							class="tabs__panel"
+							role="tabpanel"
+							id="tab-panel-approach"
+							aria-labelledby="tab-approach"
+							hidden
+						>
+							<h3 class="tabs__panel-title">APPROACH</h3>
+							<p class="tabs__panel-text">
+								Elementum sed malesuada senectus feugiat faucibus morbi a neque
+								ultricies. Nisl maecenas eget ultricies in lobortis.
+							</p>
+							<h3 class="tabs__panel-title">COACHING</h3>
+							<p class="tabs__panel-text">
+								Ac nec est ultrices varius morbi et non. Donec quam sed eget
+								purus. Elementum sed malesuada senectus feugiat.
+							</p>
+							<h3 class="tabs__panel-title">SUPPORT</h3>
+							<p class="tabs__panel-text">
+								Donec quam sed eget purus. Elementum sed malesuada senectus
+								feugiat faucibus morbi a neque ultricies.
+							</p>
+						</div>
+						<div
+							class="tabs__panel"
+							role="tabpanel"
+							id="tab-panel-plan"
+							aria-labelledby="tab-plan"
+							hidden
+						>
+							<h3 class="tabs__panel-title">OUR PLAN</h3>
+							<p class="tabs__panel-text">
+								Ac nec est ultrices varius morbi et non. Donec quam sed eget
+								purus. Elementum sed malesuada senectus feugiat faucibus morbi a
+								neque ultricies. Nisl maecenas eget ultricies in lobortis.
+							</p>
+							<h3 class="tabs__panel-title">SCHEDULE</h3>
+							<p class="tabs__panel-text">
+								Elementum sed malesuada senectus feugiat. Nisl maecenas eget
+								ultricies in lobortis.
+							</p>
+							<h3 class="tabs__panel-title">RESULTS</h3>
+							<p class="tabs__panel-text">
+								Donec quam sed eget purus. Elementum sed malesuada senectus
+								feugiat faucibus morbi a neque ultricies.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="tabs__stats-container container">
+				<div class="tabs__stats-list">
+					<div class="tabs__stats-item">
+						<h2 class="tabs__stats-title">6</h2>
+						<h5 class="tabs__stats-text">YEARS OF EXPERIENCES</h5>
+					</div>
+					<div class="tabs__stats-item">
+						<h2 class="tabs__stats-title">20</h2>
+						<h5 class="tabs__stats-text">SELECTED TRAINER</h5>
+					</div>
+					<div class="tabs__stats-item">
+						<h2 class="tabs__stats-title">120K</h2>
+						<h5 class="tabs__stats-text">CALORIES BURNED</h5>
+					</div>
+					<div class="tabs__stats-item">
+						<h2 class="tabs__stats-title">432</h2>
+						<h5 class="tabs__stats-text">HAPPY MEMBERS</h5>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="collections" class="training">
+			<div class="training__container container">
+				<div class="training__list">
+					<div class="training__item">
+						<a class="training__item-image-container" href="/">
+							<picture class="training__image-container-picture">
+								<source
+									srcset="./images/training/training-1.webp"
+									type="image/webp"
+								/>
+								<img
+									decoding="async"
+									loading="lazy"
+									class="training__image-container-img"
+									width="480"
+									height="480"
+									src="./images/training/training-1.jpg"
+									alt="Man lifting dumbbells from a rack in the gym"
+								/>
+							</picture>
+						</a>
+						<div class="training__description-container">
+							<h3 class="training__description-container-title-small">
+								TRAINING
+							</h3>
+							<h2 class="training__description-container-title-medium">
+								BEST GYM
+							</h2>
+							<p class="training__description-container-text">
+								Ac nec est ultrices varius morbi et non. Donec quam sed eget
+								purus. Elementum sed
+							</p>
+							<a class="training__description-container-button" href="/"
+								>READ MORE</a
+							>
+						</div>
+					</div>
+					<div class="training__item">
+						<a class="training__item-image-container" href="/">
+							<picture class="training__image-container-picture">
+								<source
+									srcset="./images/training/training-2.webp"
+									type="image/webp"
+								/>
+								<img
+									decoding="async"
+									loading="lazy"
+									class="training__image-container-img"
+									width="480"
+									height="480"
+									src="./images/training/training-2.jpg"
+									alt="Man lifting a barbell in the gym"
+								/>
+							</picture>
+						</a>
+						<div class="training__description-container">
+							<h3 class="training__description-container-title-small">
+								TRAINING
+							</h3>
+							<h2 class="training__description-container-title-medium">
+								WEIGHT LOSS
+							</h2>
+							<p class="training__description-container-text">
+								Ac nec est ultrices varius morbi et non. Donec quam sed eget
+								purus. Elementum sed
+							</p>
+							<a class="training__description-container-button" href="/"
+								>READ MORE</a
+							>
+						</div>
+					</div>
+					<div class="training__item training__item--right">
+						<a class="training__item-image-container" href="/">
+							<picture class="training__image-container-picture">
+								<source
+									srcset="./images/training/training-3.webp"
+									type="image/webp"
+								/>
+								<img
+									decoding="async"
+									loading="lazy"
+									class="training__image-container-img"
+									width="480"
+									height="480"
+									src="./images/training/training-3.jpg"
+									alt="Woman working out in the gym"
+								/>
+							</picture>
+						</a>
+						<div class="training__description-container">
+							<h3 class="training__description-container-title-small">
+								TRAINING
+							</h3>
+							<h2 class="training__description-container-title-medium">
+								BEST EQUIPMENT
+							</h2>
+							<p class="training__description-container-text">
+								Ac nec est ultrices varius morbi et non. Donec quam sed eget
+								purus. Elementum sed
+							</p>
+							<a class="training__description-container-button" href="/"
+								>READ MORE</a
+							>
+						</div>
+					</div>
+					<div class="training__item training__item--right">
+						<a class="training__item-image-container" href="/">
+							<picture class="training__image-container-picture">
+								<source
+									srcset="./images/training/training-4.webp"
+									type="image/webp"
+								/>
+								<img
+									decoding="async"
+									loading="lazy"
+									class="training__image-container-img"
+									width="480"
+									height="480"
+									src="./images/training/training-4.jpg"
+									alt="Athletic woman running up stairs"
+								/>
+							</picture>
+						</a>
+						<div class="training__description-container">
+							<h3 class="training__description-container-title-small">
+								TRAINING
+							</h3>
+							<h2 class="training__description-container-title-medium">
+								NUTRITION PLAN
+							</h2>
+							<p class="training__description-container-text">
+								Ac nec est ultrices varius morbi et non. Donec quam sed eget
+								purus. Elementum sed
+							</p>
+							<a class="training__description-container-button" href="/"
+								>READ MORE</a
+							>
+							<svg
+								aria-hidden="true"
+								focusable="false"
+								class="training__description-container-points-icon"
+								width="767"
+								height="767"
+							>
+								<use href="./icons/sprite.svg#points"></use>
+							</svg>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="tables" data-tabs>
+			<div class="tables__container container">
+				<div class="tables__box">
+					<svg
+						aria-hidden="true"
+						focusable="false"
+						class="tables__points-icon"
+						width="169"
+						height="1146"
+					>
+						<use href="./icons/sprite.svg#points-vertical"></use>
+					</svg>
+					<h2 class="tables__title section-title">CLASSES TIMETABLE</h2>
+					<nav class="tables__nav" role="tablist" aria-label="Sections">
+						<button
+							class="tables__tab is-active"
+							type="button"
+							role="tab"
+							aria-selected="true"
+							aria-controls="tab-panel-all-training"
+							id="tab-all"
+						>
+							ALL TRAINING
+						</button>
+						<button
+							class="tables__tab"
+							type="button"
+							role="tab"
+							aria-selected="false"
+							aria-controls="tab-panel-bodybuilding"
+							id="tab-bodybuilding"
+						>
+							BODYBUILDING
+						</button>
+						<button
+							class="tables__tab"
+							type="button"
+							role="tab"
+							aria-selected="false"
+							aria-controls="tab-panel-cardio"
+							id="tab-cardio"
+						>
+							CARDIO
+						</button>
+						<button
+							class="tables__tab"
+							type="button"
+							role="tab"
+							aria-selected="false"
+							aria-controls="tab-panel-gym"
+							id="tab-gym"
+						>
+							GYM
+						</button>
+						<button
+							class="tables__tab"
+							type="button"
+							role="tab"
+							aria-selected="false"
+							aria-controls="tab-panel-powerlifting"
+							id="tab-powerlifting"
+						>
+							POWERLIFTING
+						</button>
+					</nav>
+					<div class="tables__content">
+						<table
+							class="tables__panel is-active"
+							role="tabpanel"
+							id="tab-panel-all-training"
+							aria-labelledby="tab-all"
+						>
+							<thead class="tables__table-thead tables__table-th">
+								<tr class="tables__table-tr">
+									<th class="tables__table-text-medium tables__table-th"></th>
+									<th class="tables__table-text-medium tables__table-th">
+										MONDAY
+									</th>
+									<th class="tables__table-text-medium tables__table-th">
+										TUESDAY
+									</th>
+									<th class="tables__table-text-medium tables__table-th">
+										WEDNESDAY
+									</th>
+									<th class="tables__table-text-medium tables__table-th">
+										THURSDAY
+									</th>
+									<th class="tables__table-text-medium tables__table-th">
+										FRIDAY
+									</th>
+									<th class="tables__table-text-medium tables__table-th">
+										SATURDAY
+									</th>
+									<th
+										class="tables__table-text-medium tables__table-th table--last-child"
+									>
+										SUNDAY
+									</th>
+								</tr>
+							</thead>
+							<tbody class="tables__table-tbody">
+								<tr class="tables__table-tr">
+									<td class="tables__table-td">
+										<p class="tables__table-text-medium">07:00 - 08:00</p>
+									</td>
+									<td class="tables__table-td">
+										<p class="tables__table-text-large">FITNESS CLASS</p>
+										<p class="tables__table-text-small">Mark Thompson</p>
+									</td>
+									<td class="tables__table-td">
+										<p class="tables__table-text-large">BOXING</p>
+										<p class="tables__table-text-small">Sarah Anderson</p>
+									</td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td">
+										<p class="tables__table-text-large">OPEN GYM</p>
+										<p class="tables__table-text-small">Jessica Roberts</p>
+									</td>
+									<td class="tables__table-td">
+										<p class="tables__table-text-large">BODYBUILDING</p>
+										<p class="tables__table-text-small">Michael Johnson</p>
+									</td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td table--last-child">
+										<p class="tables__table-text-large">OPEN GYM</p>
+										<p class="tables__table-text-small">Jessica Roberts</p>
+									</td>
+								</tr>
+								<tr class="tables__table-tr">
+									<td class="tables__table-td">
+										<p class="tables__table-text-medium">08:00 - 09:00</p>
+									</td>
+									<td class="tables__table-td">
+										<p class="tables__table-text-large">BOXING</p>
+										<p class="tables__table-text-small">Sarah Anderson</p>
+									</td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td">
+										<p class="tables__table-text-large">BODYBUILDING</p>
+										<p class="tables__table-text-small">Michael Johnson</p>
+									</td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td" rowspan="2">
+										<p class="tables__table-text-large">FITNESS CLASS</p>
+										<p class="tables__table-text-small">Mark Thompson</p>
+									</td>
+									<td class="tables__table-td">
+										<p class="tables__table-text-large">BOXING</p>
+										<p class="tables__table-text-small">Sarah Anderson</p>
+									</td>
+									<td class="tables__table-td table--last-child"></td>
+								</tr>
+								<tr class="tables__table-tr">
+									<td class="tables__table-td">
+										<p class="tables__table-text-medium">09:00 - 10:00</p>
+									</td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td" rowspan="2">
+										<p class="tables__table-text-large">BOXING</p>
+										<p class="tables__table-text-small">Sarah Anderson</p>
+									</td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td table--last-child" rowspan="2">
+										<p class="tables__table-text-large">BOXING</p>
+										<p class="tables__table-text-small">Sarah Anderson</p>
+									</td>
+								</tr>
+								<tr class="tables__table-tr">
+									<td class="tables__table-td">
+										<p class="tables__table-text-medium">10:00 - 11:00</p>
+									</td>
+									<td class="tables__table-td">
+										<p class="tables__table-text-large">OPEN GYM</p>
+										<p class="tables__table-text-small">Jessica Roberts</p>
+									</td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td">
+										<p class="tables__table-text-large">BODYBUILDING</p>
+										<p class="tables__table-text-small">Michael Johnson</p>
+									</td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td">
+										<p class="tables__table-text-large">FITNESS CLASS</p>
+										<p class="tables__table-text-small">Mark Thompson</p>
+									</td>
+								</tr>
+								<tr class="tables__table-tr table--last-child">
+									<td class="tables__table-td">
+										<p class="tables__table-text-medium">11:00 - 12:00</p>
+									</td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td">
+										<p class="tables__table-text-large">BODYBUILDING</p>
+										<p class="tables__table-text-small">Michael Johnson</p>
+									</td>
+									<td class="tables__table-td">
+										<p class="tables__table-text-large">BOXING</p>
+										<p class="tables__table-text-small">Sarah Anderson</p>
+									</td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td">
+										<p class="tables__table-text-large">OPEN GYM</p>
+										<p class="tables__table-text-small">Jessica Roberts</p>
+									</td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td table--last-child">
+										<p class="tables__table-text-large">FITNESS CLASS</p>
+										<p class="tables__table-text-small">Mark Thompson</p>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<table
+							class="tables__panel"
+							role="tabpanel"
+							id="tab-panel-bodybuilding"
+							aria-labelledby="tab-bodybuilding"
+							hidden
+						>
+							<thead class="tables__table-thead tables__table-th">
+								<tr class="tables__table-tr">
+									<th class="tables__table-text-medium tables__table-th"></th>
+									<th class="tables__table-text-medium tables__table-th">
+										MONDAY
+									</th>
+									<th class="tables__table-text-medium tables__table-th">
+										TUESDAY
+									</th>
+									<th class="tables__table-text-medium tables__table-th">
+										WEDNESDAY
+									</th>
+									<th class="tables__table-text-medium tables__table-th">
+										THURSDAY
+									</th>
+									<th class="tables__table-text-medium tables__table-th">
+										FRIDAY
+									</th>
+									<th class="tables__table-text-medium tables__table-th">
+										SATURDAY
+									</th>
+									<th
+										class="tables__table-text-medium tables__table-th table--last-child"
+									>
+										SUNDAY
+									</th>
+								</tr>
+							</thead>
+							<tbody class="tables__table-tbody">
+								<tr class="tables__table-tr">
+									<td class="tables__table-td">
+										<p class="tables__table-text-medium">07:00 - 08:00</p>
+									</td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td">
+										<p class="tables__table-text-large">BODYBUILDING</p>
+										<p class="tables__table-text-small">Michael Johnson</p>
+									</td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td table--last-child"></td>
+								</tr>
+								<tr class="tables__table-tr">
+									<td class="tables__table-td">
+										<p class="tables__table-text-medium">08:00 - 09:00</p>
+									</td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td">
+										<p class="tables__table-text-large">BODYBUILDING</p>
+										<p class="tables__table-text-small">Michael Johnson</p>
+									</td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td table--last-child"></td>
+								</tr>
+								<tr class="tables__table-tr">
+									<td class="tables__table-td">
+										<p class="tables__table-text-medium">09:00 - 10:00</p>
+									</td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td table--last-child"></td>
+								</tr>
+								<tr class="tables__table-tr">
+									<td class="tables__table-td">
+										<p class="tables__table-text-medium">10:00 - 11:00</p>
+									</td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td">
+										<p class="tables__table-text-large">BODYBUILDING</p>
+										<p class="tables__table-text-small">Michael Johnson</p>
+									</td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td table--last-child"></td>
+								</tr>
+								<tr class="tables__table-tr table--last-child">
+									<td class="tables__table-td">
+										<p class="tables__table-text-medium">11:00 - 12:00</p>
+									</td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td">
+										<p class="tables__table-text-large">BODYBUILDING</p>
+										<p class="tables__table-text-small">Michael Johnson</p>
+									</td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td table--last-child"></td>
+								</tr>
+							</tbody>
+						</table>
+						<table
+							class="tables__panel"
+							role="tabpanel"
+							id="tab-panel-cardio"
+							aria-labelledby="tab-cardio"
+							hidden
+						>
+							<thead class="tables__table-thead tables__table-th">
+								<tr class="tables__table-tr">
+									<th class="tables__table-text-medium tables__table-th"></th>
+									<th class="tables__table-text-medium tables__table-th">
+										MONDAY
+									</th>
+									<th class="tables__table-text-medium tables__table-th">
+										TUESDAY
+									</th>
+									<th class="tables__table-text-medium tables__table-th">
+										WEDNESDAY
+									</th>
+									<th class="tables__table-text-medium tables__table-th">
+										THURSDAY
+									</th>
+									<th class="tables__table-text-medium tables__table-th">
+										FRIDAY
+									</th>
+									<th class="tables__table-text-medium tables__table-th">
+										SATURDAY
+									</th>
+									<th
+										class="tables__table-text-medium tables__table-th table--last-child"
+									>
+										SUNDAY
+									</th>
+								</tr>
+							</thead>
+							<tbody class="tables__table-tbody">
+								<tr class="tables__table-tr">
+									<td class="tables__table-td">
+										<p class="tables__table-text-medium">07:00 - 08:00</p>
+									</td>
+									<td class="tables__table-td">
+										<p class="tables__table-text-large">FITNESS CLASS</p>
+										<p class="tables__table-text-small">Mark Thompson</p>
+									</td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td table--last-child"></td>
+								</tr>
+								<tr class="tables__table-tr">
+									<td class="tables__table-td">
+										<p class="tables__table-text-medium">08:00 - 09:00</p>
+									</td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td" rowspan="2">
+										<p class="tables__table-text-large">FITNESS CLASS</p>
+										<p class="tables__table-text-small">Mark Thompson</p>
+									</td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td table--last-child"></td>
+								</tr>
+								<tr class="tables__table-tr">
+									<td class="tables__table-td">
+										<p class="tables__table-text-medium">09:00 - 10:00</p>
+									</td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td table--last-child"></td>
+								</tr>
+								<tr class="tables__table-tr">
+									<td class="tables__table-td">
+										<p class="tables__table-text-medium">10:00 - 11:00</p>
+									</td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td">
+										<p class="tables__table-text-large">FITNESS CLASS</p>
+										<p class="tables__table-text-small">Mark Thompson</p>
+									</td>
+									<td class="tables__table-td table--last-child"></td>
+								</tr>
+								<tr class="tables__table-tr table--last-child">
+									<td class="tables__table-td">
+										<p class="tables__table-text-medium">11:00 - 12:00</p>
+									</td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td table--last-child">
+										<p class="tables__table-text-large">FITNESS CLASS</p>
+										<p class="tables__table-text-small">Mark Thompson</p>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<table
+							class="tables__panel"
+							role="tabpanel"
+							id="tab-panel-gym"
+							aria-labelledby="tab-gym"
+							hidden
+						>
+							<thead class="tables__table-thead tables__table-th">
+								<tr class="tables__table-tr">
+									<th class="tables__table-text-medium tables__table-th"></th>
+									<th class="tables__table-text-medium tables__table-th">
+										MONDAY
+									</th>
+									<th class="tables__table-text-medium tables__table-th">
+										TUESDAY
+									</th>
+									<th class="tables__table-text-medium tables__table-th">
+										WEDNESDAY
+									</th>
+									<th class="tables__table-text-medium tables__table-th">
+										THURSDAY
+									</th>
+									<th class="tables__table-text-medium tables__table-th">
+										FRIDAY
+									</th>
+									<th class="tables__table-text-medium tables__table-th">
+										SATURDAY
+									</th>
+									<th
+										class="tables__table-text-medium tables__table-th table--last-child"
+									>
+										SUNDAY
+									</th>
+								</tr>
+							</thead>
+							<tbody class="tables__table-tbody">
+								<tr class="tables__table-tr">
+									<td class="tables__table-td">
+										<p class="tables__table-text-medium">07:00 - 08:00</p>
+									</td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td">
+										<p class="tables__table-text-large">OPEN GYM</p>
+										<p class="tables__table-text-small">Jessica Roberts</p>
+									</td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td table--last-child">
+										<p class="tables__table-text-large">OPEN GYM</p>
+										<p class="tables__table-text-small">Jessica Roberts</p>
+									</td>
+								</tr>
+								<tr class="tables__table-tr">
+									<td class="tables__table-td">
+										<p class="tables__table-text-medium">08:00 - 09:00</p>
+									</td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td table--last-child"></td>
+								</tr>
+								<tr class="tables__table-tr">
+									<td class="tables__table-td">
+										<p class="tables__table-text-medium">09:00 - 10:00</p>
+									</td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td table--last-child"></td>
+								</tr>
+								<tr class="tables__table-tr">
+									<td class="tables__table-td">
+										<p class="tables__table-text-medium">10:00 - 11:00</p>
+									</td>
+									<td class="tables__table-td">
+										<p class="tables__table-text-large">OPEN GYM</p>
+										<p class="tables__table-text-small">Jessica Roberts</p>
+									</td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td table--last-child"></td>
+								</tr>
+								<tr class="tables__table-tr table--last-child">
+									<td class="tables__table-td">
+										<p class="tables__table-text-medium">11:00 - 12:00</p>
+									</td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td">
+										<p class="tables__table-text-large">OPEN GYM</p>
+										<p class="tables__table-text-small">Jessica Roberts</p>
+									</td>
+									<td class="tables__table-td table--last-child"></td>
+								</tr>
+							</tbody>
+						</table>
+						<table
+							class="tables__panel"
+							role="tabpanel"
+							id="tab-panel-powerlifting"
+							aria-labelledby="tab-powerlifting"
+							hidden
+						>
+							<thead class="tables__table-thead tables__table-th">
+								<tr class="tables__table-tr">
+									<th class="tables__table-text-medium tables__table-th"></th>
+									<th class="tables__table-text-medium tables__table-th">
+										MONDAY
+									</th>
+									<th class="tables__table-text-medium tables__table-th">
+										TUESDAY
+									</th>
+									<th class="tables__table-text-medium tables__table-th">
+										WEDNESDAY
+									</th>
+									<th class="tables__table-text-medium tables__table-th">
+										THURSDAY
+									</th>
+									<th class="tables__table-text-medium tables__table-th">
+										FRIDAY
+									</th>
+									<th class="tables__table-text-medium tables__table-th">
+										SATURDAY
+									</th>
+									<th
+										class="tables__table-text-medium tables__table-th table--last-child"
+									>
+										SUNDAY
+									</th>
+								</tr>
+							</thead>
+							<tbody class="tables__table-tbody">
+								<tr class="tables__table-tr">
+									<td class="tables__table-td">
+										<p class="tables__table-text-medium">07:00 - 08:00</p>
+									</td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td">
+										<p class="tables__table-text-large">BOXING</p>
+										<p class="tables__table-text-small">Sarah Anderson</p>
+									</td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td table--last-child"></td>
+								</tr>
+								<tr class="tables__table-tr">
+									<td class="tables__table-td">
+										<p class="tables__table-text-medium">08:00 - 09:00</p>
+									</td>
+									<td class="tables__table-td">
+										<p class="tables__table-text-large">BOXING</p>
+										<p class="tables__table-text-small">Sarah Anderson</p>
+									</td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td">
+										<p class="tables__table-text-large">BOXING</p>
+										<p class="tables__table-text-small">Sarah Anderson</p>
+									</td>
+									<td class="tables__table-td table--last-child"></td>
+								</tr>
+								<tr class="tables__table-tr">
+									<td class="tables__table-td">
+										<p class="tables__table-text-medium">09:00 - 10:00</p>
+									</td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td" rowspan="2">
+										<p class="tables__table-text-large">BOXING</p>
+										<p class="tables__table-text-small">Sarah Anderson</p>
+									</td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td" rowspan="2">
+										<p class="tables__table-text-large">BOXING</p>
+										<p class="tables__table-text-small">Sarah Anderson</p>
+									</td>
+									<td class="tables__table-td table--last-child"></td>
+								</tr>
+								<tr class="tables__table-tr">
+									<td class="tables__table-td">
+										<p class="tables__table-text-medium">10:00 - 11:00</p>
+									</td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td table--last-child"></td>
+								</tr>
+								<tr class="tables__table-tr table--last-child">
+									<td class="tables__table-td">
+										<p class="tables__table-text-medium">11:00 - 12:00</p>
+									</td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td">
+										<p class="tables__table-text-large">BOXING</p>
+										<p class="tables__table-text-small">Sarah Anderson</p>
+									</td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td"></td>
+									<td class="tables__table-td table--last-child"></td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="view-full-timetable">
+			<div class="view-full-timetable__container container">
+				<a href="/" class="view-full-timetable__link"
+					><h4 class="view-full-timetable__title">VIEW FULL TIMETABLE</h4>
+					<svg
+						aria-hidden="true"
+						focusable="false"
+						class="view-full-timetable__icon"
+						width="21"
+						height="21"
+					>
+						<use href="./icons/sprite.svg#arrow-right"></use></svg
+				></a>
+			</div>
+		</section>
+		<section class="gym-video">
+			<div class="gym-video__container container">
+				<div class="gym-video__video">
+					<picture class="gym-video__video-picture">
+						<source
+							srcset="./images/gym-video/gilr-video-gym.webp"
+							type="image/webp"
+						/>
+						<img
+							decoding="async"
+							loading="lazy"
+							class="gym-video__video-img"
+							width="1920"
+							height="815"
+							src="./images/gym-video/gilr-video-gym.jpg"
+							alt="Woman in sportswear doing a core exercise"
+						/>
+					</picture>
+					<a
+						class="gym-video__video-play-link"
+						data-fslightbox
+						href="https://www.youtube.com/watch?v=2FXMAR7DF04"
+						title="Play video"
+						aria-label="Play video"
+					>
+						<svg
+							aria-hidden="true"
+							focusable="false"
+							class="gym-video__video-play-link-icon"
+							width="34"
+							height="54"
+						>
+							<use href="./icons/sprite.svg#play-icon"></use>
+						</svg>
+					</a>
+				</div>
+			</div>
+		</section>
+		<section class="our-fitness-center">
+			<div class="our-fitness-center__container container">
+				<h2 class="our-fitness-center__title section-title">
+					OUR FITNESS CENTER
+				</h2>
+				<details class="our-fitness-center__details">
+					<summary class="our-fitness-center__summary">
+						<div class="our-fitness-center__summary-left">
+							<time class="our-fitness-center__summary-left-time"
+								>06:00 - 23:00</time
+							>
+							<h3 class="our-fitness-center__summary-left-title">Honolulu</h3>
+						</div>
+						<svg
+							aria-hidden="true"
+							focusable="false"
+							class="our-fitness-center__summary-arrow-icon"
+							width="21"
+							height="21"
+						>
+							<use href="./icons/sprite.svg#arrow-right"></use>
+						</svg>
+					</summary>
+					<div class="our-fitness-center__content">
+						<p class="our-fitness-center__details-text">
+							Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde eos
+							impedit laborum ducimus, corrupti recusandae? Inventore illo,
+							dignissimos quis eligendi quas perferendis, excepturi nostrum vel
+							veritatis autem officia accusantium fugiat!
+						</p>
+					</div>
+				</details>
+				<details class="our-fitness-center__details">
+					<summary class="our-fitness-center__summary">
+						<div class="our-fitness-center__summary-left">
+							<time class="our-fitness-center__summary-left-time"
+								>06:00 - 23:00</time
+							>
+							<h3 class="our-fitness-center__summary-left-title">Hilo</h3>
+						</div>
+						<svg
+							aria-hidden="true"
+							focusable="false"
+							class="our-fitness-center__summary-arrow-icon"
+							width="21"
+							height="21"
+						>
+							<use href="./icons/sprite.svg#arrow-right"></use>
+						</svg>
+					</summary>
+					<div class="our-fitness-center__content">
+						<p class="our-fitness-center__details-text">
+							Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde eos
+							impedit laborum ducimus, corrupti recusandae? Inventore illo,
+							dignissimos quis eligendi quas perferendis, excepturi nostrum vel
+							veritatis autem officia accusantium fugiat!
+						</p>
+					</div>
+				</details>
+				<details class="our-fitness-center__details">
+					<summary class="our-fitness-center__summary">
+						<div class="our-fitness-center__summary-left">
+							<time class="our-fitness-center__summary-left-time"
+								>06:00 - 23:00</time
+							>
+							<h3 class="our-fitness-center__summary-left-title">Lahaina</h3>
+						</div>
+						<svg
+							aria-hidden="true"
+							focusable="false"
+							class="our-fitness-center__summary-arrow-icon"
+							width="21"
+							height="21"
+						>
+							<use href="./icons/sprite.svg#arrow-right"></use>
+						</svg>
+					</summary>
+					<div class="our-fitness-center__content">
+						<p class="our-fitness-center__details-text">
+							Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde eos
+							impedit laborum ducimus, corrupti recusandae? Inventore illo,
+							dignissimos quis eligendi quas perferendis, excepturi nostrum vel
+							veritatis autem officia accusantium fugiat!
+						</p>
+					</div>
+				</details>
+				<details class="our-fitness-center__details">
+					<summary class="our-fitness-center__summary">
+						<div class="our-fitness-center__summary-left">
+							<time class="our-fitness-center__summary-left-time"
+								>06:00 - 23:00</time
+							>
+							<h3 class="our-fitness-center__summary-left-title">Kapolei</h3>
+						</div>
+						<svg
+							aria-hidden="true"
+							focusable="false"
+							class="our-fitness-center__summary-arrow-icon"
+							width="21"
+							height="21"
+						>
+							<use href="./icons/sprite.svg#arrow-right"></use>
+						</svg>
+					</summary>
+					<div class="our-fitness-center__content">
+						<p class="our-fitness-center__details-text">
+							Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde eos
+							impedit laborum ducimus, corrupti recusandae? Inventore illo,
+							dignissimos quis eligendi quas perferendis, excepturi nostrum vel
+							veritatis autem officia accusantium fugiat!
+						</p>
+					</div>
+				</details>
+				<details class="our-fitness-center__details">
+					<summary class="our-fitness-center__summary">
+						<div class="our-fitness-center__summary-left">
+							<time class="our-fitness-center__summary-left-time"
+								>06:00 - 23:00</time
+							>
+							<h3 class="our-fitness-center__summary-left-title">Pearl City</h3>
+						</div>
+						<svg
+							aria-hidden="true"
+							focusable="false"
+							class="our-fitness-center__summary-arrow-icon"
+							width="21"
+							height="21"
+						>
+							<use href="./icons/sprite.svg#arrow-right"></use>
+						</svg>
+					</summary>
+					<div class="our-fitness-center__content">
+						<p class="our-fitness-center__details-text">
+							Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde eos
+							impedit laborum ducimus, corrupti recusandae? Inventore illo,
+							dignissimos quis eligendi quas perferendis, excepturi nostrum vel
+							veritatis autem officia accusantium fugiat!
+						</p>
+					</div>
+				</details>
+			</div>
+		</section>
+		<section class="meet-pros cards-section">
+			<div class="meet-pros__background-elements cards-section__background">
+				<svg
+					aria-hidden="true"
+					focusable="false"
+					class="background-elements__points"
+					width="767"
+					height="767"
+				>
+					<use href="./icons/sprite.svg#points"></use>
+				</svg>
+				<h2 class="background-elements__title title-transparent">WITHIN</h2>
+			</div>
+			<div class="meet-pros__container cards-section__container container">
+				<header class="meet-pros__header cards-section__header">
+					<h2
+						class="meet-pros__header-title cards-section__title section-title"
+					>
+						MEET THE PROS
+					</h2>
+					<p class="meet-pros__header-text cards-section__text">
+						Ac nec est ultrices varius morbi et non. Donec quam sed eget purus.
+						Elementum sed malesuada senectus.
+					</p>
+				</header>
+				<footer class="meet-pros__footer meet-pros__cards cards-section__grid">
+					<a class="meet-pros__card-item cards-section__card" href="/">
+						<div class="meet-pros__card-item__container">
+							<picture
+								class="meet-pros__card-item-picture cards-section__media"
+							>
+								<source
+									srcset="./images/meet-pros/sarah-anderson.webp"
+									type="image/webp"
+								/>
+								<img
+									decoding="async"
+									loading="lazy"
+									class="meet-pros__card-item-img"
+									width="393"
+									height="488"
+									src="./images/meet-pros/sarah-anderson.jpg"
+									alt="Woman boxing"
+								/>
+							</picture>
+							<div class="meet-pros__card-item-container-twitter">
+								<svg
+									aria-hidden="true"
+									focusable="false"
+									class="meet-pros__card-item-container-twitter-icon"
+									width="20"
+									height="17"
+								>
+									<use href="./icons/sprite.svg#twitter-icon"></use>
+								</svg>
+							</div>
+						</div>
+						<h4 class="meet-pros__card-item-description cards-section__kicker">
+							BOXING COACH
+						</h4>
+						<h3 class="meet-pros__cards-item-title cards-section__card-title">
+							Sarah Anderson
+						</h3>
+					</a>
+					<a class="meet-pros__card-item cards-section__card" href="/">
+						<div class="meet-pros__card-item__container">
+							<picture
+								class="meet-pros__card-item-picture cards-section__media"
+							>
+								<source
+									srcset="./images/meet-pros/mark-thompson.webp"
+									type="image/webp"
+								/>
+								<img
+									decoding="async"
+									loading="lazy"
+									class="meet-pros__card-item-img"
+									width="393"
+									height="488"
+									src="./images/meet-pros/mark-thompson.jpg"
+									alt="Woman boxing"
+								/>
+							</picture>
+							<div class="meet-pros__card-item-container-twitter">
+								<svg
+									aria-hidden="true"
+									focusable="false"
+									class="meet-pros__card-item-container-twitter-icon"
+									width="20"
+									height="17"
+								>
+									<use href="./icons/sprite.svg#twitter-icon"></use>
+								</svg>
+							</div>
+						</div>
+						<h4 class="meet-pros__card-item-description cards-section__kicker">
+							FITNESS COACH
+						</h4>
+						<h3 class="meet-pros__cards-item-title cards-section__card-title">
+							Mark Thompson
+						</h3>
+					</a>
+					<a class="meet-pros__card-item cards-section__card" href="/">
+						<div class="meet-pros__card-item__container">
+							<picture
+								class="meet-pros__card-item-picture cards-section__media"
+							>
+								<source
+									srcset="./images/meet-pros/jessica-roberts.webp"
+									type="image/webp"
+								/>
+								<img
+									decoding="async"
+									loading="lazy"
+									class="meet-pros__card-item-img"
+									width="393"
+									height="488"
+									src="./images/meet-pros/jessica-roberts.jpg"
+									alt="Woman boxing"
+								/>
+							</picture>
+							<div class="meet-pros__card-item-container-twitter">
+								<svg
+									aria-hidden="true"
+									focusable="false"
+									class="meet-pros__card-item-container-twitter-icon"
+									width="20"
+									height="17"
+								>
+									<use href="./icons/sprite.svg#twitter-icon"></use>
+								</svg>
+							</div>
+						</div>
+						<h4 class="meet-pros__card-item-description cards-section__kicker">
+							GYM COACH
+						</h4>
+						<h3 class="meet-pros__cards-item-title cards-section__card-title">
+							Jessica Roberts
+						</h3>
+					</a>
+					<a class="meet-pros__card-item cards-section__card" href="/">
+						<div class="meet-pros__card-item__container">
+							<picture
+								class="meet-pros__card-item-picture cards-section__media"
+							>
+								<source
+									srcset="./images/meet-pros/michael-johnson.webp"
+									type="image/webp"
+								/>
+								<img
+									decoding="async"
+									loading="lazy"
+									class="meet-pros__card-item-img"
+									width="393"
+									height="488"
+									src="./images/meet-pros/michael-johnson.jpg"
+									alt="Woman boxing"
+								/>
+							</picture>
+							<div class="meet-pros__card-item-container-twitter">
+								<svg
+									aria-hidden="true"
+									focusable="false"
+									class="meet-pros__card-item-container-twitter-icon"
+									width="20"
+									height="17"
+								>
+									<use href="./icons/sprite.svg#twitter-icon"></use>
+								</svg>
+							</div>
+						</div>
+						<h4 class="meet-pros__card-item-description cards-section__kicker">
+							BODYBULDING COACH
+						</h4>
+						<h3 class="meet-pros__cards-item-title cards-section__card-title">
+							Michael Johnson
+						</h3>
+					</a>
+				</footer>
+			</div>
+		</section>
+		<section id="blog" class="latest-blog">
+			<div class="latest-blog__container container">
+				<header class="latest-blog__info">
+					<h2 class="latest-blog__info-title section-title">LATEST BLOG</h2>
+					<a class="latest-blog__info-button description-button" href="/"
+						>READ MORE</a
+					>
+				</header>
+				<div class="latest-blog__cards cards-section__grid">
+					<a class="latest-blog__card-item cards-section__card" href="/">
+						<picture class="latest-blog__card-picture cards-section__media">
+							<source
+								srcset="./images/latest-blog/blog-1.webp"
+								type="image/webp"
+							/>
+							<img
+								decoding="async"
+								loading="lazy"
+								width="393"
+								height="497"
+								src="./images/latest-blog/blog-1.jpg"
+								alt="Woman exercising on a gym machine"
+							/>
+						</picture>
+						<time class="latest-blog__card-meta" datetime="2023.02.21"
+							>21 FEBRUARY 2023</time
+						>
+						<h3 class="latest-blog__card-title">
+							Achieve Your Fitness Goals: Insights from Our Center
+						</h3>
+					</a>
+					<a class="latest-blog__card-item cards-section__card" href="/">
+						<picture class="latest-blog__card-picture cards-section__media">
+							<source
+								srcset="./images/latest-blog/blog-2.webp"
+								type="image/webp"
+							/>
+							<img
+								decoding="async"
+								loading="lazy"
+								width="393"
+								height="497"
+								src="./images/latest-blog/blog-2.jpg"
+								alt="Man holding a rope"
+							/>
+						</picture>
+						<time class="latest-blog__card-meta" datetime="2023.02.21"
+							>21 FEBRUARY 2023</time
+						>
+						<h3 class="latest-blog__card-title">
+							Achieve Your Fitness Goals: Insights from Our Center
+						</h3>
+					</a>
+					<a class="latest-blog__card-item cards-section__card" href="/">
+						<picture class="latest-blog__card-picture cards-section__media">
+							<source
+								srcset="./images/latest-blog/blog-3.webp"
+								type="image/webp"
+							/>
+							<img
+								decoding="async"
+								loading="lazy"
+								width="393"
+								height="497"
+								src="./images/latest-blog/blog-3.jpg"
+								alt="Man sitting next to a barbell in the gym"
+							/>
+						</picture>
+						<time class="latest-blog__card-meta" datetime="2023.02.21"
+							>21 FEBRUARY 2023</time
+						>
+						<h3 class="latest-blog__card-title">
+							Achieve Your Fitness Goals: Insights from Our Center
+						</h3>
+					</a>
+				</div>
+			</div>
+		</section>
+		<footer class="footer">
+			<div class="footer__container container">
+				<section class="footer__info">
+					<div class="footer__top">
+						<a
+							class="footer__logo logo"
+							href="/"
+							aria-label="Pulse home"
+							title="Pulse home"
+						>
+							<svg
+								class="footer__logo-img"
+								width="269"
+								height="51"
+								aria-hidden="true"
+								focusable="false"
+							>
+								<use href="./icons/sprite.svg#pulse-logo"></use>
+							</svg>
+						</a>
+						<a class="footer__top-link" href="/">POWER FROM WITHIN</a>
+					</div>
+					<div class="footer__bottom">
+						<section
+							id="contact-us"
+							class="footer__bottom-contact"
+							aria-label="Contact us"
+						>
+							<h3 class="footer__contact-title">CONTACT US</h3>
+							<address class="footer__contact-address">
+								<a class="footer__contact-link" href="mailto:hello@pulse.com"
+									>hello@pulse.com</a
+								>
+								<a class="footer__contact-link" href="tel:+19076838196"
+									>+907 683 8196</a
+								>
+							</address>
+							<nav class="footer__socials" aria-label="Follow us">
+								<h4 class="footer__socials-title">FOLLOW US</h4>
+								<ul class="footer__socials-list">
+									<li class="footer__socials-item">
+										<a
+											class="footer__socials-link"
+											href="/"
+											aria-label="Facebook"
+											title="Facebook"
+										>
+											<svg
+												class="footer__socials-icon"
+												width="20"
+												height="20"
+												aria-hidden="true"
+											>
+												<use
+													href="./icons/sprite-footer-icon.svg#facebook"
+												></use>
+											</svg>
+										</a>
+									</li>
+									<li class="footer__socials-item">
+										<a
+											class="footer__socials-link"
+											href="/"
+											aria-label="Twitter"
+											title="Twitter"
+										>
+											<svg
+												class="footer__socials-icon"
+												width="20"
+												height="20"
+												aria-hidden="true"
+											>
+												<use
+													href="./icons/sprite-footer-icon.svg#twitter"
+												></use>
+											</svg>
+										</a>
+									</li>
+									<li class="footer__socials-item">
+										<a
+											class="footer__socials-link"
+											href="/"
+											aria-label="Instagram"
+											title="Instagram"
+										>
+											<svg
+												class="footer__socials-icon"
+												width="20"
+												height="20"
+												aria-hidden="true"
+											>
+												<use
+													href="./icons/sprite-footer-icon.svg#instagram"
+												></use>
+											</svg>
+										</a>
+									</li>
+								</ul>
+							</nav>
+						</section>
+						<div class="footer__bottom-info">
+							<section
+								class="footer__bottom-info-location"
+								aria-label="Our location"
+							>
+								<h3 class="footer__bottom-title">OUR LOCATION</h3>
+								<ul class="footer__bottom-list">
+									<li class="footer__bottom-item">
+										<h4 class="footer__bottom-item-title">Hawaii</h4>
+										<p class="footer__bottom-item-text">
+											828 Timbercrest Road, Healy City, AK 99743
+										</p>
+									</li>
+									<li class="footer__bottom-item">
+										<h4 class="footer__bottom-item-title">New York</h4>
+										<p class="footer__bottom-item-text">
+											828 Timbercrest Road, Healy City, AK 99743
+										</p>
+									</li>
+								</ul>
+							</section>
+							<section
+								class="footer__bottom-info-work-time"
+								aria-label="Opening hours"
+							>
+								<h3 class="footer__bottom-title">OPENING HOURS</h3>
+								<ul class="footer__bottom-list">
+									<li class="footer__bottom-item">
+										<h4 class="footer__bottom-item-title">Monday-Friday</h4>
+										<p class="footer__bottom-item-text">
+											Our doors are open
+											<span class="footer__bottom-item-time"
+												>06:00 - 22:00</span
+											>
+										</p>
+									</li>
+									<li class="footer__bottom-item">
+										<h4 class="footer__bottom-item-title">Weekends</h4>
+										<p class="footer__bottom-item-text">
+											Our doors are open
+											<span class="footer__bottom-item-time"
+												>10:00 - 21:00</span
+											>
+										</p>
+									</li>
+								</ul>
+							</section>
+						</div>
+					</div>
+				</section>
+				<section class="footer__copyright">
+					<p class="footer__copyright-text">
+						Copyright
+						<span class="footer__copyright-text-accent">Dotcreativemarket</span
+						>, All Rights Reserved
+					</p>
+				</section>
+			</div>
+		</footer>
+	</body>
+</html>

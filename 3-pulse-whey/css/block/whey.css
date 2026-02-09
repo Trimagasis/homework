@@ -1,0 +1,407 @@
+.whey {
+	background-color: var(--bg-color);
+}
+
+@media (width>1150px) {
+	.whey {
+		padding-block: 117px;
+	}
+}
+
+@media (width<=1150px) {
+	.whey {
+		padding-block: 70px;
+	}
+}
+
+.whey__container {
+	max-width: 1812px;
+	margin: 0 auto;
+}
+
+.whey__slider {
+	position: relative;
+}
+
+@media (width>1250px) {
+	.whey__slider {
+		max-height: 767px;
+	}
+}
+
+@media (width<=1250px) {
+	.whey__slider {
+		max-height: 710px;
+	}
+}
+
+.whey__slide {
+	position: relative;
+}
+
+.whey__slide-inner {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 5px;
+}
+@media (width>1850px) {
+	.whey__slide-inner {
+		padding-left: 350px;
+	}
+}
+
+@media (width<=1850px) {
+	.whey__slide-inner {
+		/* 1300px - 1850px */
+		padding-left: clamp(46px, -42.034rem + 55.27vw, 350px);
+	}
+}
+@media (width>1350px) {
+	.whey__slide-inner {
+		padding-right: 204px;
+	}
+}
+@media (width<=1350px) {
+	.whey__slide-inner {
+		padding-right: 160px;
+	}
+}
+
+@media (width<=876px) {
+	.whey__slide-inner {
+		padding-right: 46px;
+	}
+}
+
+.whey__left {
+	display: flex;
+}
+
+.whey__slide-points {
+	z-index: var(--layer-negative);
+	position: absolute;
+	display: block;
+	top: 0;
+	bottom: 0;
+}
+
+@media (width>1550px) {
+	.whey__slide-points {
+		left: 683px;
+	}
+}
+
+@media (width<=1550px) {
+	.whey__slide-points {
+		left: 383px;
+	}
+}
+@media (width<=1250px) {
+	.whey__slide-points {
+		left: 183px;
+		width: 650px;
+		height: 650px;
+		opacity: 0.35;
+	}
+}
+
+.whey__description-title {
+	margin-bottom: 34px;
+	font-weight: 600;
+	color: var(--main-color);
+}
+
+@media (width>1200px) {
+	.whey__description-title {
+		font-size: 120px;
+	}
+}
+
+@media (width<=1200px) {
+	.whey__description-title {
+		font-size: 100px;
+	}
+}
+
+@media (width<=935px) {
+	.whey__description-title {
+		font-size: 60px;
+	}
+}
+
+.whey__description-title-accent {
+	color: var(--accent-color);
+}
+
+.whey__description-small-title {
+	margin-bottom: 10px;
+	font-weight: 500;
+	color: var(--main-color);
+}
+
+@media (width>935px) {
+	.whey__description-small-title {
+		font-size: 30px;
+	}
+}
+
+@media (width<=935px) {
+	.whey__description-small-title {
+		font-size: 25px;
+	}
+}
+
+.whey__description-text {
+	margin-bottom: 28px;
+	font-family: var(--second-family);
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 169%;
+	color: var(--description-color);
+}
+
+@media (width>876px) {
+	.whey__description-text {
+		max-width: 468px;
+	}
+}
+
+.whey__description-text:last-of-type {
+	margin-bottom: 48px;
+}
+
+.whey__description-button {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 209px;
+	height: 76px;
+	font-weight: 500;
+	font-size: 20px;
+	color: var(--main-color);
+	background: var(--accent-color);
+	border-left: 4px solid var(--main-color);
+	transition: transform var(--transition-time-slow) ease;
+}
+
+@media (any-hover: hover) {
+	.whey__description-button:hover {
+		transform: translateX(var(--translate-value));
+	}
+}
+
+.whey__description-button:active {
+	transform: translateX(var(--translate-value));
+}
+
+@media (width>1300px) {
+	.whey__right {
+		padding-left: 169px;
+	}
+}
+
+@media (width<=1300px) {
+	.whey__right {
+		padding-left: clamp(6.125rem, -15.137rem + 32.4vw, 11.188rem);
+	}
+}
+
+@media (width<=876px) {
+	.whey__right {
+		display: none;
+	}
+}
+
+.whey__illustration {
+	margin-left: auto;
+	position: relative;
+}
+
+.whey__illustration-specification {
+	z-index: var(--layer-0);
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+}
+
+@media (width>1250px) {
+	.whey__illustration-specification {
+		right: 467px;
+	}
+}
+
+@media (width<=1250px) {
+	.whey__illustration-specification {
+		right: clamp(20.938rem, -12.063rem + 52.8vw, 29.188rem);
+	}
+}
+
+.specification__protein,
+.specification__bcaas {
+	padding-block: 26px;
+	text-align: center;
+}
+
+@media (width>1300px) {
+	.specification__protein,
+	.specification__bcaas {
+		width: 179px;
+	}
+}
+
+@media (width<=1300px) {
+	.specification__protein,
+	.specification__bcaas {
+		/* 1150px - 1300px */
+		width: clamp(100px, -14.488rem + 31.6vw, 179px);
+	}
+}
+
+.specification__protein {
+	background-color: var(--main-color);
+}
+
+.specification__bcaas {
+	background-color: var(--accent-color);
+}
+
+.specification__title {
+	margin-bottom: 3px;
+	font-weight: 500;
+	font-size: 30px;
+	color: var(--bg-color);
+}
+
+.specification__text {
+	font-family: var(--second-family);
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 169%;
+}
+
+.specification__text--protein {
+	color: var(--description-color);
+}
+
+.specification__text--bcaas {
+	color: var(--bg-color);
+}
+
+@media (width<=876px) {
+	.whey__illustration {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+	}
+}
+
+.whey__illustration-image {
+	position: relative;
+}
+
+@media (width>1250px) {
+	.whey__illustration-image {
+		width: 476px;
+	}
+}
+
+@media (width<=1250px) {
+	.whey__illustration-image {
+		/* 1000px - 1250px */
+		width: clamp(350px, -9.625rem + 50.4vw, 476px);
+	}
+}
+
+.whey__illustration-image-print {
+	position: absolute;
+	top: 93px;
+}
+
+@media (width>1250px) {
+	.whey__illustration-image-print {
+		width: 100%;
+		right: -197px;
+	}
+}
+
+@media (width<=1250px) {
+	.whey__illustration-image-print {
+		width: 170px;
+		right: -67px;
+	}
+}
+
+@media (width>876px) {
+	.whey__pagination {
+		display: flex;
+		flex-direction: column;
+		gap: 54px;
+		align-items: center;
+		justify-content: flex-start;
+		width: 74px;
+		height: 218px;
+		position: absolute;
+		right: 106px;
+		top: 394px;
+		bottom: auto;
+		left: auto;
+		z-index: var(--layer-3);
+	}
+}
+
+@media (width<=876px) {
+	.whey__pagination {
+		display: none;
+	}
+}
+
+.swiper-vertical > .whey__pagination.swiper-pagination-bullets {
+	width: 74px;
+	height: 218px;
+	right: 37px;
+	left: auto;
+	top: 251px;
+	bottom: auto;
+	transform: none;
+}
+
+.whey__pagination .swiper-pagination-bullet {
+	width: 14px;
+	height: 14px;
+	border-radius: 50%;
+	background-color: var(--secondary-color);
+	opacity: 1;
+	position: relative;
+	flex: 0 0 auto;
+}
+
+.whey__pagination .swiper-pagination-bullet-active {
+	background-color: transparent;
+}
+
+.whey__pagination .swiper-pagination-bullet-active::before {
+	content: "";
+	position: absolute;
+	width: 74px;
+	height: 74px;
+	border-radius: 50px;
+	border: 5px solid var(--accent-color);
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.whey__pagination .swiper-pagination-bullet-active::after {
+	content: attr(aria-label);
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	font-family: var(--font-family);
+	font-weight: 400;
+	font-size: 21px;
+	color: var(--main-color);
+}

@@ -1,0 +1,96 @@
+<!doctype html>
+<html class="page" lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="shortcut icon"
+			href="./icons/pulse-icon-48x48.ico"
+			type="image/x-icon"
+		/>
+		<link rel="stylesheet" href="./css/index.css" />
+		<script src="./js/index.js" type="module"></script>
+		<title>PULSE</title>
+	</head>
+	<body class="page__body">
+		<header class="header">
+			<div class="header__container container">
+				<a class="header__logo logo" href="/">
+					<svg
+						class="header__logo-img"
+						width="198"
+						height="38"
+						aria-label="Логотип pulse"
+					>
+						<use href="./icons/header/sprite.svg#pulse-logo"></use>
+					</svg>
+				</a>
+				<nav class="header__menu" id="header__menu" aria-label="Главное меню">
+					<ul class="header__menu-list">
+						<li class="header__menu-item">
+							<a href="#home" class="header__menu-item-link menu__link">HOME</a>
+						</li>
+						<li class="header__menu-item">
+							<a href="#catalogs" class="header__menu-item-link menu__link"
+								>CATALOGS</a
+							>
+						</li>
+						<li class="header__menu-item">
+							<a href="#blog" class="header__menu-item-link">BLOG</a>
+						</li>
+						<li class="header__menu-item">
+							<a href="#collections" class="header__menu-item-link menu__link"
+								>COLLECTIONS</a
+							>
+						</li>
+						<li class="header__menu-item">
+							<a href="#contact-us" class="header__menu-item-link menu__link"
+								>CONTACT US</a
+							>
+						</li>
+					</ul>
+				</nav>
+				<div class="header__actions">
+					<button
+						class="header__actions-button header__actions-cart"
+						title="Корзина"
+						aria-label="Корзина"
+					>
+						<svg class="header__actions-icon" width="38" height="33">
+							<use href="./icons/header/sprite.svg#cart"></use>
+							<div class="header__cart-circle">
+								<span class="header__cart-circle-text">2</span>
+							</div>
+						</svg>
+					</button>
+					<button
+						class="header__actions-button"
+						title="Поиск"
+						aria-label="Поиск"
+					>
+						<svg class="header__actions-search" width="29" height="29">
+							<use href="./icons/header/sprite.svg#search"></use>
+						</svg>
+					</button>
+					<button
+						class="header__burger burger"
+						aria-label="Открыть меню"
+						aria-expanded="false"
+						aria-controls="header__menu"
+					>
+						<svg width="24" height="24">
+							<use
+								class="burger__icon-menu"
+								href="./icons/header/sprite.svg#menu-burger"
+							></use>
+							<use
+								class="burger__icon-cross"
+								href="./icons/header/sprite.svg#menu-cross"
+							></use>
+						</svg>
+					</button>
+				</div>
+			</div>
+		</header>
+	</body>
+</html>

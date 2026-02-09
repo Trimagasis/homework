@@ -1,0 +1,36 @@
+:root {
+	/* font-family */
+	--font-family: "Oswald", sans-serif;
+	--second-family: "Archivo", sans-serif;
+
+	/* colors */
+	--main-color: #fff;
+	--accent-color: #f47521;
+	--bg-color: #141414;
+
+	/* --main-glow-color: #ffffff38;
+	--accent-glow-color: #ffea0050;
+	--secondary-color: #ffffff;
+	--disable-color: #5d5d56;
+	--disable-glow-color: #5d5d5666;
+	--shadow-color: #181817; */
+
+	/* shadows */
+	/* --shadow-main-glow: 0 0 6px 1px var(--main-glow-color);
+	--shadow-accent-glow: 0 0 7px 3px var(--accent-glow-color);
+	--disable-accent-glow: 0 0 8px 3px var(--disable-glow-color); */
+
+	/* container */
+	--container-width: 1920px;
+	--container-padding: 15px;
+
+	/* transitions */
+	--transition-time: 0.4s;
+
+	/* layers */
+	--layer-negative: -1;
+	--layer-0: 0;
+	--layer-1: 1;
+	--layer-2: 2;
+	--layer-3: 3;
+}

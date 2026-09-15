@@ -1,0 +1,115 @@
+.gym-video__container {
+	max-width: 1920px;
+}
+
+.gym-video__video {
+	position: relative;
+	overflow: hidden;
+}
+
+.gym-video__video-play-link {
+	position: absolute;
+	display: block;
+	width: 122px;
+	height: 122px;
+	border-radius: 50%;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	-webkit-transform-origin: center;
+	-ms-transform-origin: center;
+	transform-origin: center;
+	-webkit-transition: -webkit-transform var(--transition-time-slow) ease;
+	transition: -webkit-transform var(--transition-time-slow) ease;
+	-o-transition: transform var(--transition-time-slow) ease;
+	transition: transform var(--transition-time-slow) ease;
+	transition:
+		transform var(--transition-time-slow) ease,
+		-webkit-transform var(--transition-time-slow) ease;
+	background-color: var(--accent-color);
+}
+
+@media (width<=1200px) {
+	.gym-video__video-play-link {
+		width: 90px;
+		height: 90px;
+	}
+}
+
+@media (width<=768px) {
+	.gym-video__video-play-link {
+		width: 60px;
+		height: 60px;
+	}
+}
+
+.gym-video__video-play-link-icon {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-35%, -50%);
+	-ms-transform: translate(-35%, -50%);
+	transform: translate(-35%, -50%);
+}
+
+@media (width<=1200px) {
+	.gym-video__video-play-link-icon {
+		width: 26px;
+		height: 46px;
+	}
+}
+
+@media (width<=768px) {
+	.gym-video__video-play-link-icon {
+		width: 20px;
+		height: 40px;
+	}
+}
+
+.gym-video__video-picture {
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+	-webkit-transform-origin: center;
+	-ms-transform-origin: center;
+	transform-origin: center;
+	-webkit-transition: -webkit-transform var(--transition-time-slow) ease;
+	transition: -webkit-transform var(--transition-time-slow) ease;
+	-o-transition: transform var(--transition-time-slow) ease;
+	transition: transform var(--transition-time-slow) ease;
+	transition:
+		transform var(--transition-time-slow) ease,
+		-webkit-transform var(--transition-time-slow) ease;
+}
+
+.gym-video__video-img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	-o-object-fit: cover;
+	object-fit: cover;
+}
+
+@media (width<=576px) {
+	.gym-video__video-picture,
+	.gym-video__video-img {
+		min-height: 250px;
+	}
+}
+
+.gym-video__video:has(.gym-video__video-play-link:hover)
+	.gym-video__video-picture {
+	-webkit-transform: scale(var(--transform-scale-small));
+	-ms-transform: scale(var(--transform-scale-small));
+	transform: scale(var(--transform-scale-small));
+}
+
+.gym-video__video-play-link:hover {
+	-webkit-transform: translate(-50%, -50%) scale(var(--transform-scale));
+	-ms-transform: translate(-50%, -50%) scale(var(--transform-scale));
+	transform: translate(-50%, -50%) scale(var(--transform-scale));
+}
